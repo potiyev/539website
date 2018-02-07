@@ -1,0 +1,59 @@
+body {
+  /* display: block; */
+  /* background-color: red; */
+
+html {
+  width: 1200px;
+}
+
+}
+
+img {
+  max-width: 100px;
+  padding: 60px;
+  margin: 10px 40px;
+  border: 5px solid black;
+}
+
+.hover:hover {
+  max-width: 150px;
+  border-radius: 200px;
+}
+
+.active:focus {
+  opacity: 0.3;
+}
+
+.focus:focus {
+  filter: grayscale(100%);
+}
+
+.bar {
+  display: block;
+  background-color: #CCC;
+  margin-top: 40px;
+  width: auto;
+  height: 50px;
+}
+.bar .square {
+  display: block;
+  background-color: blue;
+  width: 20px;
+  height: 20px;
+  margin: 15px 0px;
+  position: absolute;
+  /* z-index: 2; */
+  /* animation: move 3s ease-in alternate; */
+}
+
+.square:focus {
+  animation: move 4s ease-in;
+}
+
+
+@keyframes move {
+  100% {
+    transform: translateX(1200px);
+
+  }
+}
