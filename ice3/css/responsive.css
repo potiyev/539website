@@ -1,8 +1,8 @@
-@media only screen and (min-width: 680px)  {
+@media only screen and (min-width: 680px) {
   .top-nav ul li {
-		display: inline-block;
+    display: inline-block;
   }
-  .top-nav ul{
+  .top-nav ul {
     text-align: center;
     padding: 0;
     /* border-top: 1px solid red; */
@@ -13,31 +13,33 @@
   }
   .top-nav ul div {
     /* border-top: 1px solid red; */
+  }
+  @media only screen and (min-width: 1000px) {
+    .top-nav ul {
+      text-align: right;
+    }
+    .top-nav ul li {
+      padding-top: 1%;
+    }
+    .top-nav ul div {
+      border-top: none;
+    }
+    .logo {
+      float: left;
+    }
+    .top-nav ul li {
+      border-top: 1px solid red;
+    }
+    .blue-vertical {
+      width: 49%;
+      display: inline-block;
+    }
+    .yellow-vertical {
+      width: 49%;
+      display: inline-block;
+    }
+    .photo-grid {
+      width:51%;
 
-}
-
-@media only screen and (min-width: 1000px)  {
-  .top-nav ul {
-    text-align:right;
-}
-  .top-nav ul li {
-    padding-top: 1%;
-
+    }
   }
-  .top-nav ul div {
-    border-top: none;
-  }
-  .logo {
-    float: left;
-  }
-  .photo-grid {
-    width: 100%;
-    height: auto;
-    float:left;
-  }
-  .photo-cell {
-    width: 25%;
-    margin: 6px 0;
-  }
-
-}
