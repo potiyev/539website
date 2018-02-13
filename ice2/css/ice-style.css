@@ -39,7 +39,7 @@ aside {
 }
 
 nav {
-  background-color: green;
+  background-color: red;
   text-align: center;
 }
 
@@ -48,7 +48,6 @@ nav li {
   padding: 10px 15px 15px 35px;
   background-color: black;
   height: 20px;
-
 }
 
 nav ul a {
@@ -57,7 +56,6 @@ nav ul a {
   text-decoration: none;
   /* background-color: black; */
   /* padding: 5px 15px 10px 20px */
-
 }
 
 header {
