@@ -1,0 +1,13 @@
+html {
+  margin:auto;
+}
+body {
+}
+
+body div {
+  display: inline-block;
+  padding: 30px;
+  margin: auto;
+  border: 2px dashed black;
+  /* background-color: green; */
+}
