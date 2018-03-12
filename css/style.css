@@ -1,0 +1,21 @@
+html {
+  margin: auto;
+  padding: 10px;
+}
+body {
+}
+h1 {
+  font-family: helvetica;
+  font-size: 30px;
+  color: black;
+
+}
+
+body div {
+  font-family: helvetica;
+  display: block;
+  padding: 30px;
+  margin: auto;
+  border: 3px dashed  gold;
+  /* background-color: green; */
+}
