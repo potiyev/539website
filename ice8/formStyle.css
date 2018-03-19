@@ -1,0 +1,66 @@
+/* GENERAL APPEARANCE */
+
+html, body, h1, form, fieldset, legend, ol, li {
+  margin: auto;
+  padding: 0;
+
+}
+h2, h4 {
+  text-align: center;
+  /* margin: auto; */
+  /* padding: 0; */
+}
+h4 {
+  color: blue;
+  text-transform: uppercase;
+}
+
+legend {
+  font-weight: bold;
+}
+
+fieldset {
+  border-color: blue;
+}
+
+
+body {
+  background: #ffffff;
+  color: #111111;
+  font-family: helvetica, Times, serif;
+  padding: .5%;
+}
+
+form {
+  background: #FFBA19;
+  -moz-border-radius: 2%;
+  -webkit-border-radius: 2%;
+  border-radius: 2%;
+  padding: 2%;
+  width: 50%;
+}
+
+
+
+label{
+  display: block;
+  /* padding-bottom: 2%; */
+  /* width:42%; */
+}
+
+#addDegree, #addwork, #submit {
+  display: block;
+  margin: auto;
+  border-color: blue;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    display: block;
+}
+}
+@media only screen and (min-width: 601) {
+body {
+  display: block;
+}
+}
