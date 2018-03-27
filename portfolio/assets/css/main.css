@@ -1914,7 +1914,7 @@ h2 {
 		text-decoration: none;
 		padding: .75em 2.5em 0.75em 2.5em;
 		margin: .75em;
-		background-color: #469EEB;
+		background-color: #234f75;
 		border: 0;
 		cursor: pointer;
 /*		background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15)), url("images/overlay.png");*/
@@ -1941,7 +1941,7 @@ h2 {
 		input[type="reset"]:active,
 		button:active,
 		.button:active {
-			background-color: #469EEB;
+			background-color: #0f5089;
 		}
 
 /* Item */
@@ -2633,8 +2633,9 @@ h2 {
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {
-    background-color: #469EEB;
-
+		color: #000000;
+    background-color: #265781;
+#265781
 }
 
 
