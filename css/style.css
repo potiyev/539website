@@ -8,14 +8,21 @@ h1 {
   font-family: helvetica;
   font-size: 30px;
   color: black;
+  text-transform: uppercase;
 
 }
 
 body div {
   font-family: helvetica;
-  display: block;
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 30px;
+  align-content: center;
+  text-align: center;
+  width: 20%;
+  height: 20%;
   padding: 30px;
   margin: auto;
-  border: 3px dashed  gold;
+  border: 5px dashed  gold;
   /* background-color: green; */
 }
