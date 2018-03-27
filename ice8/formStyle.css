@@ -22,7 +22,10 @@ legend {
 fieldset {
   border-color: blue;
 }
-
+#address {
+  display:inline-block;
+  width: 60%;
+}
 
 body {
   background: #ffffff;
