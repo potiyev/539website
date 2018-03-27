@@ -2164,7 +2164,6 @@ h2 {
 			padding: 4em 0;
 			box-shadow: inset 0 1px 0 0 rgba(0, 0, 0, 0.05), inset 0 0.1em 0.1em 0 rgba(0, 0, 0, 0.025);
 			text-align: center;
-			background-image: url("images/overlay.png");
 		}
 
 			#main > section.dark {
@@ -2701,15 +2700,7 @@ h2 {
 grid-auto-columns: 3fr, 1fr;
 } */
 
-.fftitle {
-	font-size: 150%;
-	font-weight: bold;
-	padding: 10px 10px;
-	color: green;
-	text-transform: uppercase;
-	/* text-align: center; */
-	/* border-bottom: 1px black solid; */
-}
+
 
 li {
 	list-style: none;
@@ -2721,16 +2712,6 @@ li {
 
 }
 
-.ffitem {
-	/* border: 1px lime solid; */
-	border-bottom: 2px green solid;
-	padding: 10px 10px;
-	text-align: center;
-	margin: 10px;
-	width: 5fr;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
-}
 
 
 @-webkit-keyframes zoom {
