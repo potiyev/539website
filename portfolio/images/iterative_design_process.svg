@@ -1,1 +1,235 @@
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="11in" height="8in" viewBox="0 0 792 576"><defs><style>.cls-1{fill:#fff;}.cls-2{fill:#57abc1;}.cls-3,.cls-38,.cls-40,.cls-41,.cls-42,.cls-43{fill:none;stroke-miterlimit:10;stroke-width:2px;}.cls-3{stroke:#247065;stroke-linecap:round;}.cls-4{fill:#7ccbd8;}.cls-5{fill:#458985;}.cls-6{fill:#efce4a;}.cls-7{fill:#f7e6a1;}.cls-8{fill:#2b3d54;}.cls-9{fill:#edeada;}.cls-10{fill:#424a60;}.cls-11{fill:#ebba16;}.cls-12{fill:#ed7161;}.cls-13{fill:#c8d2d6;}.cls-14{fill:#e7eced;}.cls-15{fill:#fbce9d;}.cls-16{fill:#f7b563;}.cls-17{font-size:48px;}.cls-17,.cls-23,.cls-29,.cls-37{fill:#222729;}.cls-17,.cls-23{font-family:AvenirNext-Regular, Avenir Next;}.cls-18{letter-spacing:-0.01em;}.cls-19{letter-spacing:-0.01em;}.cls-20{letter-spacing:-0.05em;}.cls-21{letter-spacing:-0.02em;}.cls-22{letter-spacing:0em;}.cls-23,.cls-37,.cls-39{font-size:24px;}.cls-24{letter-spacing:-0.06em;}.cls-25{letter-spacing:-0.03em;}.cls-26{letter-spacing:0em;}.cls-27{letter-spacing:-0.02em;}.cls-28{letter-spacing:-0.02em;}.cls-29{font-size:18px;}.cls-29,.cls-37,.cls-39{font-family:Avenir-Medium, Avenir;}.cls-30{letter-spacing:-0.11em;}.cls-31{font-size:14px;font-family:Avenir-Roman, Avenir;}.cls-32{letter-spacing:0em;}.cls-33{letter-spacing:0em;}.cls-34{letter-spacing:-0.02em;}.cls-35{letter-spacing:-0.04em;}.cls-36{letter-spacing:-0.02em;}.cls-38{stroke:#0071bc;}.cls-39{fill:#0071bc;}.cls-40{stroke:#57abc1;}.cls-41{stroke:#efce4a;}.cls-42{stroke:#ebba16;}.cls-43{stroke:#2b3d54;}.cls-44{fill:#2c5b61;}</style></defs><title>iterative design process</title><rect class="cls-1" width="792" height="576"/><circle class="cls-2" cx="103.44" cy="172.98" r="41.37"/><line class="cls-3" x1="131.26" y1="203.59" x2="163.42" y2="237.04"/><path class="cls-4" d="M64.17,185.92a41.09,41.09,0,0,0,8.62,14.78l58.36-58.36a41.08,41.08,0,0,0-14.78-8.62Z"/><path class="cls-5" d="M103.44,216.42A43.44,43.44,0,1,1,146.87,173,43.49,43.49,0,0,1,103.44,216.42Zm0-82.74a39.3,39.3,0,1,0,39.3,39.3A39.34,39.34,0,0,0,103.44,133.68Z"/><path class="cls-6" d="M280.41,129.21A39.82,39.82,0,0,0,268,206.85v24.41h5v7.47h14.94v-7.47h5V206.85a39.82,39.82,0,0,0-12.45-77.64Z"/><path class="cls-6" d="M280.41,106.81a2.49,2.49,0,0,0-2.49,2.49v10a2.49,2.49,0,1,0,5,0v-10A2.49,2.49,0,0,0,280.41,106.81Z"/><path class="cls-6" d="M340.15,166.55h-10a2.49,2.49,0,0,0,0,5h10a2.49,2.49,0,0,0,0-5Z"/><path class="cls-6" d="M230.63,166.55h-10a2.49,2.49,0,0,0,0,5h10a2.49,2.49,0,0,0,0-5Z"/><path class="cls-6" d="M320.9,125l-7,7a2.49,2.49,0,1,0,3.52,3.52l7-7A2.49,2.49,0,1,0,320.9,125Z"/><path class="cls-6" d="M243.45,202.48l-7,7a2.49,2.49,0,1,0,3.52,3.52l7-7a2.49,2.49,0,1,0-3.52-3.52Z"/><path class="cls-6" d="M317.38,202.48a2.49,2.49,0,0,0-3.52,3.52l7,7a2.49,2.49,0,0,0,3.52-3.52Z"/><path class="cls-6" d="M239.93,125a2.49,2.49,0,1,0-3.52,3.52l7,7a2.49,2.49,0,0,0,3.52-3.52Z"/><path class="cls-7" d="M253,171.53a2.49,2.49,0,0,1-2.49-2.49,29.9,29.9,0,0,1,29.87-29.87,2.49,2.49,0,0,1,0,5A24.92,24.92,0,0,0,255.52,169,2.49,2.49,0,0,1,253,171.53Z"/><polygon class="cls-8" points="267.97 213.84 267.97 231.27 272.95 231.27 272.95 238.74 287.88 238.74 287.88 231.27 292.86 231.27 292.86 213.84 267.97 213.84"/><polygon class="cls-9" points="484.32 200.54 469.35 204.62 473.44 189.66 530.83 132.26 437.77 132.26 437.77 236.17 541.68 236.17 541.68 143.19 484.32 200.54"/><path class="cls-7" d="M473.78,200.19a1.92,1.92,0,0,1,0,2.72l-.69.69,11.15-3-10.83-10.83-3,11.15.69-.69A1.92,1.92,0,0,1,473.78,200.19Z"/><path class="cls-10" d="M473.09,203.6l.69-.69a1.92,1.92,0,0,0-2.72-2.72l-.69.69-1,3.74Z"/><polygon class="cls-11" points="536.02 148.84 525.14 137.95 473.44 189.66 473.41 189.73 484.24 200.56 484.32 200.54 536.02 148.84"/><path class="cls-12" d="M548.29,131.17l-5.48-5.48a3.82,3.82,0,0,0-5.4,0l-6.82,6.82,10.89,10.89,6.82-6.82A3.82,3.82,0,0,0,548.29,131.17Z"/><polygon class="cls-7" points="525.14 137.95 530.58 132.51 530.58 132.51 525.14 137.95"/><rect class="cls-7" x="529.46" y="132.97" width="7.7" height="15.39" transform="translate(56.73 418.3) rotate(-45)"/><rect class="cls-13" x="660.46" y="214.64" width="52.66" height="24.14"/><path class="cls-14" d="M695.57,238.78H660.46V214.64h20.68a14.42,14.42,0,0,1,14.42,14.42Z"/><circle class="cls-8" cx="681.31" cy="226.71" r="5.49"/><path class="cls-15" d="M677.81,135a7.67,7.67,0,1,0-10.11-10.11Z"/><path class="cls-15" d="M688.78,146a7.67,7.67,0,1,0-10.11-10.11Z"/><path class="cls-15" d="M699.75,156.94a7.67,7.67,0,1,0-10.11-10.11Z"/><path class="cls-15" d="M710.72,167.91a7.67,7.67,0,1,0-10.11-10.11Z"/><path class="cls-15" d="M665.95,183.92H644a7.7,7.7,0,0,1-7.68-7.68h0a7.7,7.7,0,0,1,7.68-7.68h21.94a7.7,7.7,0,0,1,7.68,7.68h0A7.7,7.7,0,0,1,665.95,183.92Z"/><path class="cls-16" d="M711.23,180.77l-24.4,24.4a5,5,0,0,1-7.12,0l-21.24-21.25H644c-1.27.62-4.73-1.62-3.4-.48l23.72,23.63c.16.16.35.28.52.43v7.14h43.88v-9.9a16.4,16.4,0,0,0,2.49-24Z"/><path class="cls-8" d="M660.66,117.85,626.53,152l16.66,16.66a7.83,7.83,0,0,1,.82-.08h21.94a7.68,7.68,0,1,1,0,15.36h-7.48l13.94,13.94,34.13-34.14Z"/><path class="cls-14" d="M660.66,117.85,655.8,113a5,5,0,0,0-7.12,0l-27,27a5,5,0,0,0,0,7.12l4.86,4.86Z"/><path class="cls-14" d="M713.84,171l-7.3-7.3-34.13,34.14,7.3,7.3a5,5,0,0,0,7.12,0l27-27A5,5,0,0,0,713.84,171Z"/><circle class="cls-1" cx="694.47" cy="185.02" r="4.39"/><path class="cls-10" d="M638.52,135.65A2.19,2.19,0,0,1,637,131.9l4.39-4.39a2.19,2.19,0,0,1,3.1,3.1L640.07,135A2.19,2.19,0,0,1,638.52,135.65Z"/><text class="cls-17" transform="translate(103.44 57.42)">My Ite<tspan class="cls-18" x="133.1" y="0">r</tspan><tspan class="cls-19" x="149.8" y="0">a</tspan><tspan x="174.96" y="0">tive Design </tspan><tspan class="cls-20" x="432.38" y="0">P</tspan><tspan class="cls-21" x="457.91" y="0">r</tspan><tspan class="cls-22" x="474.33" y="0">ocess</tspan></text><text class="cls-23" transform="translate(51 334)">RESEARCH</text><text class="cls-23" transform="translate(250.54 334)">IDE<tspan class="cls-24" x="38.62" y="0">A</tspan><tspan x="53.98" y="0">TE</tspan></text><text class="cls-23" transform="translate(416.83 334)">PR<tspan class="cls-25" x="28.3" y="0">OTO</tspan><tspan class="cls-18" x="80.62" y="0">T</tspan><tspan class="cls-26" x="94.01" y="0">YPE</tspan></text><text class="cls-23" transform="translate(650.66 334)">TE<tspan class="cls-27" x="27.89" y="0">S</tspan><tspan class="cls-28" x="40.99" y="0">T</tspan></text><text class="cls-29" transform="translate(25 369.61)"><tspan class="cls-30">T</tspan><tspan x="8.33" y="0">ypes:</tspan><tspan class="cls-31"><tspan x="0" y="16.8">• Compe</tspan><tspan class="cls-32" x="57.33" y="16.8">t</tspan><tspan x="62.27" y="16.8">i</tspan><tspan class="cls-33" x="65.63" y="16.8">t</tspan><tspan x="70.57" y="16.8">ive Analysis</tspan><tspan x="0" y="33.6">• User Resea</tspan><tspan class="cls-34" x="80.67" y="33.6">r</tspan><tspan x="85.34" y="33.6">ch</tspan><tspan x="0" y="50.4">• Literatu</tspan><tspan class="cls-34" x="58.87" y="50.4">r</tspan><tspan x="63.55" y="50.4">e Resea</tspan><tspan class="cls-34" x="112.57" y="50.4">r</tspan><tspan x="117.25" y="50.4">ch</tspan></tspan></text><text class="cls-29" transform="translate(23.94 450.61)">Outcomes:<tspan class="cls-31"><tspan x="0" y="16.8">• Surveys</tspan><tspan x="0" y="33.6">• Diary Stu</tspan><tspan class="cls-32" x="67.96" y="33.6">d</tspan><tspan x="76.52" y="33.6">ies</tspan><tspan x="0" y="50.4">• Ca</tspan><tspan class="cls-34" x="28.01" y="50.4">r</tspan><tspan x="32.69" y="50.4">d Sorts</tspan><tspan x="0" y="67.2">• Interviews</tspan></tspan></text><text class="cls-29" transform="translate(210.91 369.61)">Outcomes:<tspan class="cls-31"><tspan x="0" y="16.8">• Key fin</tspan><tspan class="cls-32" x="53.69" y="16.8">d</tspan><tspan x="62.26" y="16.8">ings</tspan><tspan x="0" y="33.6">• Flow Map</tspan><tspan x="0" y="50.4">• A</tspan><tspan class="cls-34" x="20.75" y="50.4">f</tspan><tspan x="24.91" y="50.4">finity </tspan><tspan class="cls-35" x="59.39" y="50.4">W</tspan><tspan x="72.35" y="50.4">a</tspan><tspan class="cls-32" x="79.62" y="50.4">l</tspan><tspan x="82.99" y="50.4">ls</tspan><tspan x="0" y="67.2">• Personas</tspan><tspan x="0" y="84">• User needs</tspan></tspan></text><text class="cls-29" transform="translate(397.54 369.61)">Outcomes:<tspan class="cls-31"><tspan x="0" y="16.8">• Sketches</tspan><tspan x="0" y="33.6">• Wi</tspan><tspan class="cls-34" x="27.73" y="33.6">r</tspan><tspan x="32.41" y="33.6">eframes</tspan><tspan x="0" y="50.4">• Paper p</tspan><tspan class="cls-34" x="60.17" y="50.4">r</tspan><tspan x="64.85" y="50.4">ototypes</tspan><tspan x="0" y="67.2">• Mid-Fide</tspan><tspan class="cls-32" x="67.65" y="67.2">lt</tspan><tspan x="75.96" y="67.2">iy p</tspan><tspan class="cls-34" x="98.52" y="67.2">r</tspan><tspan x="103.19" y="67.2">ototypes</tspan></tspan></text><text class="cls-29" transform="translate(599.01 371.06)">Outcomes:<tspan class="cls-31"><tspan x="0" y="16.8">• High-Fi</tspan><tspan class="cls-32" x="56.5" y="16.8">d</tspan><tspan x="65.07" y="16.8">leity p</tspan><tspan class="cls-36" x="103.7" y="16.8">r</tspan><tspan x="108.37" y="16.8">ototypes</tspan><tspan x="0" y="33.6">• Data-P</tspan><tspan class="cls-34" x="53.69" y="33.6">r</tspan><tspan x="58.37" y="33.6">oven designs</tspan></tspan></text><text class="cls-37" transform="translate(20 328)">1</text><text class="cls-37" transform="translate(210.91 328)">2</text><text class="cls-37" transform="translate(397.54 328)">3</text><rect class="cls-38" x="678.02" y="506" width="93.46" height="32"/><text class="cls-37" transform="translate(599.01 328)">4</text><text class="cls-39" transform="translate(686.62 529.5)">Repeat</text><rect class="cls-40" x="20" y="307" width="175" height="229"/><rect class="cls-41" x="205.36" y="307" width="175" height="159.49"/><rect class="cls-42" x="394.27" y="307" width="175" height="144.98"/><rect class="cls-43" x="594.9" y="305.55" width="175" height="131.45"/><path class="cls-44" d="M133.42,118.83a37.12,37.12,0,0,1,58.83-6c1.33,1.41,3.45-.72,2.12-2.12a40.15,40.15,0,0,0-63.54,6.65c-1,1.65,1.58,3.16,2.59,1.51Z"/><path class="cls-44" d="M192,110.24a41.2,41.2,0,0,0-12.76,4.55c-1.69.93-.18,3.53,1.51,2.59a38.69,38.69,0,0,1,12-4.25c1.9-.34,1.09-3.23-.8-2.89Z"/><path class="cls-44" d="M195,110.61A16.78,16.78,0,0,1,194,97.91c.56-1.85-2.33-2.64-2.89-.8a19.92,19.92,0,0,0,1.36,15c.87,1.72,3.46.21,2.59-1.51Z"/><path class="cls-44" d="M335,117.84a37.12,37.12,0,0,1,58.83-6c1.33,1.41,3.45-.72,2.12-2.12a40.15,40.15,0,0,0-63.54,6.65c-1,1.65,1.58,3.16,2.59,1.51Z"/><path class="cls-44" d="M393.64,109.26a41.2,41.2,0,0,0-12.76,4.55c-1.69.93-.18,3.53,1.51,2.59a38.69,38.69,0,0,1,12-4.25c1.9-.34,1.09-3.23-.8-2.89Z"/><path class="cls-44" d="M396.63,109.63a16.78,16.78,0,0,1-1.06-12.7c.56-1.85-2.33-2.64-2.89-.8a19.92,19.92,0,0,0,1.36,15c.87,1.72,3.46.21,2.59-1.51Z"/><path class="cls-44" d="M536.6,118.68a37.12,37.12,0,0,1,58.83-6c1.33,1.41,3.45-.72,2.12-2.12A40.15,40.15,0,0,0,534,117.17c-1,1.65,1.58,3.16,2.59,1.51Z"/><path class="cls-44" d="M595.24,110.1a41.2,41.2,0,0,0-12.76,4.55c-1.69.93-.18,3.53,1.51,2.59A38.69,38.69,0,0,1,596,113c1.9-.34,1.09-3.23-.8-2.89Z"/><path class="cls-44" d="M598.23,110.46a16.78,16.78,0,0,1-1.06-12.7c.56-1.85-2.33-2.64-2.89-.8a19.92,19.92,0,0,0,1.36,15c.87,1.72,3.46.21,2.59-1.51Z"/><path class="cls-44" d="M647.72,241.44a37.12,37.12,0,0,1-58.83,6c-1.33-1.41-3.45.72-2.12,2.12A40.15,40.15,0,0,0,650.31,243c1-1.65-1.58-3.16-2.59-1.51Z"/><path class="cls-44" d="M589.08,250a41.2,41.2,0,0,0,12.76-4.55c1.69-.93.18-3.53-1.51-2.59a38.69,38.69,0,0,1-12,4.25c-1.9.34-1.09,3.23.8,2.89Z"/><path class="cls-44" d="M586.09,249.65a16.78,16.78,0,0,1,1.06,12.7c-.56,1.85,2.33,2.64,2.89.8a19.92,19.92,0,0,0-1.36-15c-.87-1.72-3.46-.21-2.59,1.51Z"/><path class="cls-44" d="M446.12,242.42a37.12,37.12,0,0,1-58.83,6c-1.33-1.41-3.45.72-2.12,2.12a40.15,40.15,0,0,0,63.54-6.65c1-1.65-1.58-3.16-2.59-1.51Z"/><path class="cls-44" d="M387.49,251a41.2,41.2,0,0,0,12.76-4.55c1.69-.93.18-3.53-1.51-2.59a38.69,38.69,0,0,1-12,4.25c-1.9.34-1.09,3.23.8,2.89Z"/><path class="cls-44" d="M384.5,250.64a16.78,16.78,0,0,1,1.06,12.7c-.56,1.85,2.33,2.64,2.89.8a19.92,19.92,0,0,0-1.36-15c-.87-1.72-3.46-.21-2.59,1.51Z"/><path class="cls-44" d="M244.53,241.58a37.12,37.12,0,0,1-58.83,6c-1.33-1.41-3.45.72-2.12,2.12a40.15,40.15,0,0,0,63.54-6.65c1-1.65-1.58-3.16-2.59-1.51Z"/><path class="cls-44" d="M185.9,250.17a41.2,41.2,0,0,0,12.76-4.55c1.69-.93.18-3.53-1.51-2.59a38.69,38.69,0,0,1-12,4.25c-1.9.34-1.09,3.23.8,2.89Z"/><path class="cls-44" d="M182.91,249.8A16.78,16.78,0,0,1,184,262.5c-.56,1.85,2.33,2.64,2.89.8a19.92,19.92,0,0,0-1.36-15c-.87-1.72-3.46-.21-2.59,1.51Z"/></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 792 576" style="enable-background:new 0 0 792 576;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#ECF1F1;}
+	.st1{fill:#57ABC1;}
+	.st2{fill:none;stroke:#247065;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;}
+	.st3{fill:#7CCBD8;}
+	.st4{fill:#458985;}
+	.st5{fill:#EFCE4A;}
+	.st6{fill:#F7E6A1;}
+	.st7{fill:#2B3D54;}
+	.st8{fill:#EDEADA;}
+	.st9{fill:#424A60;}
+	.st10{fill:#EBBA16;}
+	.st11{fill:#ED7161;}
+	.st12{fill:#C8D2D6;}
+	.st13{fill:#E7ECED;}
+	.st14{fill:#FBCE9D;}
+	.st15{fill:#F7B563;}
+	.st16{fill:#FFFFFF;}
+	.st17{fill:#222729;}
+	.st18{font-family:'AvenirNext-Regular';}
+	.st19{font-size:48px;}
+	.st20{letter-spacing:-2;}
+	.st21{font-size:24px;}
+	.st22{letter-spacing:-1;}
+	.st23{font-family:'Avenir-Medium';}
+	.st24{font-size:18px;}
+	.st25{font-family:'Avenir-Roman';}
+	.st26{font-size:14px;}
+	.st27{fill:none;stroke:#0071BC;stroke-width:2;stroke-miterlimit:10;}
+	.st28{fill:#0071BC;}
+	.st29{fill:none;stroke:#57ABC1;stroke-width:2;stroke-miterlimit:10;}
+	.st30{fill:none;stroke:#EFCE4A;stroke-width:2;stroke-miterlimit:10;}
+	.st31{fill:none;stroke:#EBBA16;stroke-width:2;stroke-miterlimit:10;}
+	.st32{fill:none;stroke:#2B3D54;stroke-width:2;stroke-miterlimit:10;}
+	.st33{fill:#2C5B61;}
+</style>
+<title>iterative design process</title>
+<rect class="st0" width="792" height="576"/>
+<circle class="st1" cx="103.4" cy="173" r="41.4"/>
+<line class="st2" x1="131.3" y1="203.6" x2="163.4" y2="237"/>
+<path class="st3" d="M64.2,185.9c1.8,5.5,4.7,10.5,8.6,14.8l58.4-58.4c-4.3-3.9-9.3-6.8-14.8-8.6L64.2,185.9z"/>
+<path class="st4" d="M103.4,216.4C79.4,216.4,60,197,60,173s19.4-43.4,43.4-43.4s43.4,19.4,43.4,43.4c0,0,0,0,0,0
+	C146.8,197,127.4,216.4,103.4,216.4z M103.4,133.7c-21.7,0-39.3,17.6-39.3,39.3s17.6,39.3,39.3,39.3s39.3-17.6,39.3-39.3
+	C142.7,151.3,125.1,133.7,103.4,133.7z"/>
+<path class="st5" d="M280.4,129.2c-22,0-39.8,17.9-39.8,39.9c0,17.2,11,32.4,27.4,37.8v24.4h5v7.5h14.9v-7.5h5v-24.4
+	c20.9-6.9,32.2-29.4,25.4-50.3C312.9,140.2,297.7,129.2,280.4,129.2L280.4,129.2z"/>
+<path class="st5" d="M280.4,106.8c-1.4,0-2.5,1.1-2.5,2.5v10c0,1.4,1.1,2.5,2.5,2.5s2.5-1.1,2.5-2.5v-10
+	C282.9,107.9,281.8,106.8,280.4,106.8C280.4,106.8,280.4,106.8,280.4,106.8z"/>
+<path class="st5" d="M340.1,166.6h-10c-1.4,0-2.5,1.1-2.5,2.5s1.1,2.5,2.5,2.5h10c1.4,0,2.5-1.1,2.5-2.5S341.5,166.6,340.1,166.6z"
+	/>
+<path class="st5" d="M230.6,166.6h-10c-1.4,0-2.5,1.1-2.5,2.5s1.1,2.5,2.5,2.5l0,0h10c1.4,0,2.5-1.1,2.5-2.5S232,166.6,230.6,166.6z
+	"/>
+<path class="st5" d="M320.9,125l-7,7c-1,0.9-1,2.5-0.1,3.5c0.9,1,2.5,1,3.5,0.1c0,0,0.1-0.1,0.1-0.1l7-7c1-0.9,1-2.5,0.1-3.5
+	S322,124,320.9,125C321,124.9,320.9,125,320.9,125z"/>
+<path class="st5" d="M243.4,202.5l-7,7c-1,0.9-1,2.5-0.1,3.5c0.9,1,2.5,1,3.5,0.1c0,0,0.1-0.1,0.1-0.1l7-7c1-0.9,1-2.5,0.1-3.5
+	C246.1,201.5,244.5,201.4,243.4,202.5C243.5,202.4,243.5,202.4,243.4,202.5z"/>
+<path class="st5" d="M317.4,202.5c-1-0.9-2.6-0.9-3.5,0.1c-0.9,1-0.9,2.5,0,3.4l7,7c1,0.9,2.6,0.9,3.5-0.1c0.9-1,0.9-2.5,0-3.4
+	L317.4,202.5z"/>
+<path class="st5" d="M239.9,125c-0.9-1-2.5-1-3.5-0.1c-1,0.9-1,2.5-0.1,3.5c0,0,0.1,0.1,0.1,0.1l7,7c1,0.9,2.6,0.9,3.5-0.1
+	c0.9-1,0.9-2.5,0-3.4L239.9,125z"/>
+<path class="st6" d="M253,171.5c-1.4,0-2.5-1.1-2.5-2.5c0,0,0,0,0,0c0-16.5,13.4-29.9,29.9-29.9c1.4,0,2.5,1.1,2.5,2.5
+	s-1.1,2.5-2.5,2.5c-13.7,0-24.8,11.1-24.9,24.8C255.5,170.4,254.4,171.5,253,171.5C253,171.5,253,171.5,253,171.5z"/>
+<polygon class="st7" points="268,213.8 268,231.3 273,231.3 273,238.7 287.9,238.7 287.9,231.3 292.9,231.3 292.9,213.8 "/>
+<polygon class="st8" points="484.3,200.5 469.4,204.6 473.4,189.7 530.8,132.3 437.8,132.3 437.8,236.2 541.7,236.2 541.7,143.2 "/>
+<path class="st6" d="M473.8,200.2c0.8,0.7,0.8,2,0,2.7c0,0,0,0,0,0l-0.7,0.7l11.1-3l-10.8-10.8l-3,11.1l0.7-0.7
+	C471.8,199.5,473,199.5,473.8,200.2z"/>
+<path class="st9" d="M473.1,203.6l0.7-0.7c0.8-0.8,0.8-2,0-2.7s-2-0.8-2.7,0l-0.7,0.7l-1,3.7L473.1,203.6z"/>
+<polygon class="st10" points="536,148.8 525.1,137.9 473.4,189.7 473.4,189.7 484.2,200.6 484.3,200.5 "/>
+<path class="st11" d="M548.3,131.2l-5.5-5.5c-1.5-1.5-3.9-1.5-5.4,0l-6.8,6.8l10.9,10.9l6.8-6.8
+	C549.8,135.1,549.8,132.7,548.3,131.2C548.3,131.2,548.3,131.2,548.3,131.2z"/>
+<polygon class="st6" points="525.1,137.9 530.6,132.5 530.6,132.5 "/>
+<rect x="529.5" y="133" transform="matrix(0.7071 -0.7071 0.7071 0.7071 56.7404 418.2995)" class="st6" width="7.7" height="15.4"/>
+<rect x="660.5" y="214.6" class="st12" width="52.7" height="24.1"/>
+<path class="st13" d="M695.6,238.8h-35.1v-24.1h20.7c8,0,14.4,6.5,14.4,14.4L695.6,238.8z"/>
+<circle class="st7" cx="681.3" cy="226.7" r="5.5"/>
+<path class="st14" d="M677.8,135c3.9-1.7,5.6-6.2,3.9-10.1c-1.7-3.9-6.2-5.6-10.1-3.9c-1.8,0.8-3.2,2.2-3.9,3.9L677.8,135z"/>
+<path class="st14" d="M688.8,146c3.9-1.7,5.6-6.2,3.9-10.1c-1.7-3.9-6.2-5.6-10.1-3.9c-1.8,0.8-3.2,2.2-3.9,3.9L688.8,146z"/>
+<path class="st14" d="M699.8,156.9c3.9-1.7,5.6-6.2,3.9-10.1c-1.7-3.9-6.2-5.6-10.1-3.9c-1.8,0.8-3.2,2.2-3.9,3.9L699.8,156.9z"/>
+<path class="st14" d="M710.7,167.9c3.9-1.7,5.6-6.2,3.9-10.1c-1.7-3.9-6.2-5.6-10.1-3.9c-1.8,0.8-3.2,2.2-3.9,3.9L710.7,167.9z"/>
+<path class="st14" d="M666,183.9h-22c-4.2,0-7.7-3.4-7.7-7.7l0,0c0-4.2,3.4-7.7,7.7-7.7h21.9c4.2,0,7.7,3.4,7.7,7.7l0,0
+	C673.6,180.5,670.2,183.9,666,183.9z"/>
+<path class="st15" d="M711.2,180.8l-24.4,24.4c-1.9,2-5.1,2-7.1,0c0,0,0,0,0,0l-21.2-21.2H644c-1.3,0.6-4.7-1.6-3.4-0.5l23.7,23.6
+	c0.2,0.2,0.3,0.3,0.5,0.4v7.1h43.9v-9.9c7.3-5.4,8.8-15.7,3.3-23C711.8,181.4,711.5,181.1,711.2,180.8L711.2,180.8z"/>
+<path class="st7" d="M660.7,117.8L626.5,152l16.7,16.7c0.3,0,0.5-0.1,0.8-0.1H666c4.2,0,7.7,3.4,7.7,7.7c0,4.2-3.4,7.7-7.7,7.7h-7.5
+	l13.9,13.9l34.1-34.1L660.7,117.8z"/>
+<path class="st13" d="M660.7,117.8l-4.9-4.8c-1.9-2-5.1-2-7.1,0c0,0,0,0,0,0l-27,27c-2,1.9-2,5.1,0,7.1c0,0,0,0,0,0l4.9,4.9
+	L660.7,117.8z"/>
+<path class="st13" d="M713.8,171l-7.3-7.3l-34.1,34.1l7.3,7.3c1.9,2,5.1,2,7.1,0c0,0,0,0,0,0l27-27C715.8,176.2,715.8,173,713.8,171
+	C713.9,171,713.9,171,713.8,171z"/>
+<circle class="st16" cx="694.5" cy="185" r="4.4"/>
+<path class="st9" d="M638.5,135.6c-1.2,0-2.2-1-2.2-2.2c0-0.6,0.2-1.1,0.7-1.5l4.4-4.4c0.9-0.9,2.2-0.9,3.1,0c0.9,0.9,0.9,2.2,0,3.1
+	l0,0l-4.4,4.4C639.7,135.4,639.1,135.6,638.5,135.6z"/>
+<text transform="matrix(1 0 0 1 103.44 57.42)" class="st17 st18 st19">My Ite</text>
+<text transform="matrix(1 0 0 1 236.54 57.42)" class="st17 st18 st19">r</text>
+<text transform="matrix(1 0 0 1 253.24 57.42)" class="st17 st18 st19">a</text>
+<text transform="matrix(1 0 0 1 278.4 57.42)" class="st17 st18 st19">tive Design </text>
+<text transform="matrix(1 0 0 1 535.82 57.42)" class="st17 st18 st19 st20">P</text>
+<text transform="matrix(1 0 0 1 561.35 57.42)" class="st17 st18 st19">r</text>
+<text transform="matrix(1 0 0 1 577.77 57.42)" class="st17 st18 st19">ocess</text>
+<text transform="matrix(1 0 0 1 51 320)" class="st17 st18 st21">RESEARCH</text>
+<text transform="matrix(1 0 0 1 250.54 320)" class="st17 st18 st21">IDE</text>
+<text transform="matrix(1 0 0 1 289.16 320)" class="st17 st18 st21 st22">A</text>
+<text transform="matrix(1 0 0 1 304.52 320)" class="st17 st18 st21">TE</text>
+<text transform="matrix(1 0 0 1 416.83 320)" class="st17 st18 st21">PR</text>
+<text transform="matrix(1 0 0 1 445.13 320)" class="st17 st18 st21">OTO</text>
+<text transform="matrix(1 0 0 1 497.45 320)" class="st17 st18 st21">T</text>
+<text transform="matrix(1 0 0 1 510.84 320)" class="st17 st18 st21">YPE</text>
+<text transform="matrix(1 0 0 1 650.66 320)" class="st17 st18 st21">TE</text>
+<text transform="matrix(1 0 0 1 678.55 320)" class="st17 st18 st21">S</text>
+<text transform="matrix(1 0 0 1 691.65 320)" class="st17 st18 st21">T</text>
+<text transform="matrix(1 0 0 1 25 355.61)" class="st17 st23 st24 st22">T</text>
+<text transform="matrix(1 0 0 1 33.33 355.61)" class="st17 st23 st24">ypes:</text>
+<text transform="matrix(1 0 0 1 25 372.41)" class="st17 st25 st26">• Compe</text>
+<text transform="matrix(1 0 0 1 82.33 372.41)" class="st17 st25 st26">t</text>
+<text transform="matrix(1 0 0 1 87.27 372.41)" class="st17 st25 st26">i</text>
+<text transform="matrix(1 0 0 1 90.63 372.41)" class="st17 st25 st26">t</text>
+<text transform="matrix(1 0 0 1 95.57 372.41)" class="st17 st25 st26">ive Analysis</text>
+<text transform="matrix(1 0 0 1 25 389.21)" class="st17 st25 st26">• User Resea</text>
+<text transform="matrix(1 0 0 1 105.67 389.21)" class="st17 st25 st26">r</text>
+<text transform="matrix(1 0 0 1 110.34 389.21)" class="st17 st25 st26">ch</text>
+<text transform="matrix(1 0 0 1 25 406.01)" class="st17 st25 st26">• Literatu</text>
+<text transform="matrix(1 0 0 1 83.87 406.01)" class="st17 st25 st26">r</text>
+<text transform="matrix(1 0 0 1 88.55 406.01)" class="st17 st25 st26">e Resea</text>
+<text transform="matrix(1 0 0 1 137.57 406.01)" class="st17 st25 st26">r</text>
+<text transform="matrix(1 0 0 1 142.25 406.01)" class="st17 st25 st26">ch</text>
+<text transform="matrix(1 0 0 1 23.94 436.61)" class="st17 st23 st24">Outcomes:</text>
+<text transform="matrix(1 0 0 1 23.94 453.41)" class="st17 st25 st26">• Surveys</text>
+<text transform="matrix(1 0 0 1 23.94 470.21)" class="st17 st25 st26">• Diary Stu</text>
+<text transform="matrix(1 0 0 1 91.9 470.21)" class="st17 st25 st26">d</text>
+<text transform="matrix(1 0 0 1 100.46 470.21)" class="st17 st25 st26">ies</text>
+<text transform="matrix(1 0 0 1 23.94 487.01)" class="st17 st25 st26">• Ca</text>
+<text transform="matrix(1 0 0 1 51.95 487.01)" class="st17 st25 st26">r</text>
+<text transform="matrix(1 0 0 1 56.63 487.01)" class="st17 st25 st26">d Sorts</text>
+<text transform="matrix(1 0 0 1 23.94 503.81)" class="st17 st25 st26">• Interviews</text>
+<text transform="matrix(1 0 0 1 210.91 355.61)" class="st17 st23 st24">Outcomes:</text>
+<text transform="matrix(1 0 0 1 210.91 372.41)" class="st17 st25 st26">• Key fin</text>
+<text transform="matrix(1 0 0 1 264.6 372.41)" class="st17 st25 st26">d</text>
+<text transform="matrix(1 0 0 1 273.17 372.41)" class="st17 st25 st26">ings</text>
+<text transform="matrix(1 0 0 1 210.91 389.21)" class="st17 st25 st26">• Flow Map</text>
+<text transform="matrix(1 0 0 1 210.91 406.01)" class="st17 st25 st26">• A</text>
+<text transform="matrix(1 0 0 1 231.66 406.01)" class="st17 st25 st26">f</text>
+<text transform="matrix(1 0 0 1 235.82 406.01)" class="st17 st25 st26">finity </text>
+<text transform="matrix(1 0 0 1 270.3 406.01)" class="st17 st25 st26">W</text>
+<text transform="matrix(1 0 0 1 283.26 406.01)" class="st17 st25 st26">a</text>
+<text transform="matrix(1 0 0 1 290.53 406.01)" class="st17 st25 st26">l</text>
+<text transform="matrix(1 0 0 1 293.9 406.01)" class="st17 st25 st26">ls</text>
+<text transform="matrix(1 0 0 1 210.91 422.81)" class="st17 st25 st26">• Personas</text>
+<text transform="matrix(1 0 0 1 210.91 439.61)" class="st17 st25 st26">• User needs</text>
+<text transform="matrix(1 0 0 1 397.54 355.61)" class="st17 st23 st24">Outcomes:</text>
+<text transform="matrix(1 0 0 1 397.54 372.41)" class="st17 st25 st26">• Sketches</text>
+<text transform="matrix(1 0 0 1 397.54 389.21)" class="st17 st25 st26">• Wi</text>
+<text transform="matrix(1 0 0 1 425.27 389.21)" class="st17 st25 st26">r</text>
+<text transform="matrix(1 0 0 1 429.95 389.21)" class="st17 st25 st26">eframes</text>
+<text transform="matrix(1 0 0 1 397.54 406.01)" class="st17 st25 st26">• Paper p</text>
+<text transform="matrix(1 0 0 1 457.71 406.01)" class="st17 st25 st26">r</text>
+<text transform="matrix(1 0 0 1 462.39 406.01)" class="st17 st25 st26">ototypes</text>
+<text transform="matrix(1 0 0 1 397.54 422.81)" class="st17 st25 st26">• Mid-Fide</text>
+<text transform="matrix(1 0 0 1 465.19 422.81)" class="st17 st25 st26">lt</text>
+<text transform="matrix(1 0 0 1 473.5 422.81)" class="st17 st25 st26">iy p</text>
+<text transform="matrix(1 0 0 1 496.06 422.81)" class="st17 st25 st26">r</text>
+<text transform="matrix(1 0 0 1 500.73 422.81)" class="st17 st25 st26">ototypes</text>
+<text transform="matrix(1 0 0 1 599.01 357.06)" class="st17 st23 st24">Outcomes:</text>
+<text transform="matrix(1 0 0 1 599.01 373.86)" class="st17 st25 st26">• High-Fi</text>
+<text transform="matrix(1 0 0 1 655.51 373.86)" class="st17 st25 st26">d</text>
+<text transform="matrix(1 0 0 1 664.08 373.86)" class="st17 st25 st26">leity p</text>
+<text transform="matrix(1 0 0 1 702.71 373.86)" class="st17 st25 st26">r</text>
+<text transform="matrix(1 0 0 1 707.38 373.86)" class="st17 st25 st26">ototypes</text>
+<text transform="matrix(1 0 0 1 599.01 390.66)" class="st17 st25 st26">• Data-P</text>
+<text transform="matrix(1 0 0 1 652.7 390.66)" class="st17 st25 st26">r</text>
+<text transform="matrix(1 0 0 1 657.38 390.66)" class="st17 st25 st26">oven designs</text>
+<text transform="matrix(1 0 0 1 20 322)" class="st17 st23 st21">1</text>
+<text transform="matrix(1 0 0 1 210.91 314)" class="st17 st23 st21">2</text>
+<text transform="matrix(1 0 0 1 397.54 314)" class="st17 st23 st21">3</text>
+<rect x="20" y="537.3" class="st27" width="751.5" height="34.1"/>
+<text transform="matrix(1 0 0 1 599.01 314)" class="st17 st23 st21">4</text>
+<text transform="matrix(1 0 0 1 383.62 560.8209)" class="st28 st23 st21">Repeat</text>
+<rect x="20" y="293" class="st29" width="175" height="229"/>
+<rect x="205.4" y="293" class="st30" width="175" height="229.8"/>
+<rect x="394.3" y="293" class="st31" width="175" height="229.8"/>
+<rect x="594.9" y="291.5" class="st32" width="175" height="230.5"/>
+<path class="st33" d="M133.4,118.8c10.7-17.5,33.5-23,51-12.4c2.9,1.8,5.5,3.9,7.8,6.4c1.3,1.4,3.4-0.7,2.1-2.1
+	c-15.2-16.1-40.6-16.9-56.8-1.7c-2.6,2.5-4.9,5.3-6.8,8.4C129.8,119,132.4,120.5,133.4,118.8L133.4,118.8z"/>
+<path class="st33" d="M192,110.2c-4.5,0.8-8.8,2.3-12.8,4.6c-1.7,0.9-0.2,3.5,1.5,2.6c3.7-2.1,7.8-3.5,12-4.2
+	C194.6,112.8,193.8,109.9,192,110.2L192,110.2z"/>
+<path class="st33" d="M195,110.6c-2-3.9-2.3-8.5-1-12.7c0.6-1.8-2.3-2.6-2.9-0.8c-1.5,5-1,10.4,1.4,15
+	C193.3,113.8,195.9,112.3,195,110.6L195,110.6z"/>
+<path class="st33" d="M335,117.8c10.7-17.5,33.5-23,51-12.4c2.9,1.8,5.5,3.9,7.8,6.4c1.3,1.4,3.5-0.7,2.1-2.1
+	c-15.2-16.1-40.6-16.9-56.8-1.7c-2.6,2.5-4.9,5.3-6.8,8.4C331.4,118,334,119.5,335,117.8L335,117.8z"/>
+<path class="st33" d="M393.6,109.3c-4.5,0.8-8.8,2.3-12.8,4.6c-1.7,0.9-0.2,3.5,1.5,2.6c3.7-2.1,7.8-3.5,12-4.2
+	C396.3,111.8,395.5,108.9,393.6,109.3L393.6,109.3z"/>
+<path class="st33" d="M396.6,109.6c-2-3.9-2.4-8.5-1.1-12.7c0.6-1.8-2.3-2.6-2.9-0.8c-1.5,5-1,10.4,1.4,15
+	C394.9,112.8,397.5,111.3,396.6,109.6L396.6,109.6z"/>
+<path class="st33" d="M536.6,118.7c10.7-17.5,33.5-23,51-12.4c2.9,1.8,5.5,3.9,7.8,6.4c1.3,1.4,3.5-0.7,2.1-2.1
+	c-15.2-16.2-40.6-16.9-56.8-1.8c-2.6,2.5-4.9,5.3-6.8,8.4C533,118.8,535.6,120.3,536.6,118.7L536.6,118.7z"/>
+<path class="st33" d="M595.2,110.1c-4.5,0.8-8.8,2.3-12.8,4.6c-1.7,0.9-0.2,3.5,1.5,2.6c3.7-2.1,7.8-3.5,12-4.2
+	C597.9,112.7,597.1,109.8,595.2,110.1L595.2,110.1z"/>
+<path class="st33" d="M598.2,110.5c-2-3.9-2.4-8.5-1.1-12.7c0.6-1.8-2.3-2.6-2.9-0.8c-1.5,5-1,10.4,1.4,15
+	C596.5,113.7,599.1,112.2,598.2,110.5L598.2,110.5z"/>
+<path class="st33" d="M647.7,241.4c-10.7,17.5-33.5,23-51,12.4c-2.9-1.8-5.5-3.9-7.8-6.4c-1.3-1.4-3.5,0.7-2.1,2.1
+	c15.2,16.2,40.6,17,56.8,1.8c2.6-2.5,4.9-5.3,6.8-8.4C651.3,241.4,648.7,239.8,647.7,241.4L647.7,241.4z"/>
+<path class="st33" d="M589.1,250c4.5-0.8,8.8-2.3,12.8-4.6c1.7-0.9,0.2-3.5-1.5-2.6c-3.7,2.1-7.8,3.5-12,4.2
+	C586.4,247.4,587.2,250.3,589.1,250L589.1,250z"/>
+<path class="st33" d="M586.1,249.6c2,3.9,2.4,8.5,1.1,12.7c-0.6,1.9,2.3,2.6,2.9,0.8c1.5-5,1-10.4-1.4-15
+	C587.8,246.4,585.2,247.9,586.1,249.6L586.1,249.6z"/>
+<path class="st33" d="M446.1,242.4c-10.7,17.5-33.5,23-51,12.4c-2.9-1.8-5.5-3.9-7.8-6.4c-1.3-1.4-3.5,0.7-2.1,2.1
+	c15.2,16.1,40.6,16.9,56.8,1.7c2.6-2.5,4.9-5.3,6.8-8.4C449.7,242.2,447.1,240.7,446.1,242.4L446.1,242.4z"/>
+<path class="st33" d="M387.5,251c4.5-0.8,8.8-2.3,12.8-4.6c1.7-0.9,0.2-3.5-1.5-2.6c-3.7,2.1-7.8,3.5-12,4.2
+	C384.8,248.4,385.6,251.3,387.5,251L387.5,251z"/>
+<path class="st33" d="M384.5,250.6c2,3.9,2.4,8.5,1.1,12.7c-0.6,1.9,2.3,2.6,2.9,0.8c1.5-5,1-10.4-1.4-15
+	C386.2,247.4,383.6,248.9,384.5,250.6L384.5,250.6z"/>
+<path class="st33" d="M244.5,241.6c-10.7,17.5-33.5,23-51,12.4c-2.9-1.8-5.5-3.9-7.8-6.4c-1.3-1.4-3.4,0.7-2.1,2.1
+	c15.2,16.1,40.6,16.9,56.8,1.7c2.6-2.5,4.9-5.3,6.8-8.4C248.1,241.4,245.5,239.9,244.5,241.6L244.5,241.6z"/>
+<path class="st33" d="M185.9,250.2c4.5-0.8,8.8-2.3,12.8-4.6c1.7-0.9,0.2-3.5-1.5-2.6c-3.7,2.1-7.8,3.5-12,4.2
+	C183.2,247.6,184.1,250.5,185.9,250.2L185.9,250.2z"/>
+<path class="st33" d="M182.9,249.8c2,3.9,2.4,8.5,1.1,12.7c-0.6,1.9,2.3,2.6,2.9,0.8c1.5-5,1-10.4-1.4-15
+	C184.7,246.6,182.1,248.1,182.9,249.8L182.9,249.8z"/>
+<g>
+	<path class="st28" d="M357.3,555.2c-4.3,10.9-13.6,14.4-20.7,7.7c-1.2-1.1-2.2-2.4-3.2-4c-0.5-0.9-1.4,0.4-0.9,1.3
+		c6.2,10.1,16.5,10.6,23,1.1c1.1-1.5,3.3-3.6,4.1-5.5C360.1,554.8,357.8,554.1,357.3,555.2L357.3,555.2z"/>
+	<path class="st28" d="M332.1,559.2c2.8-0.1,5.6-0.4,8.3-1.1c1.1-0.3,0.4-1.5-0.7-1.2c-2.5,0.6-5.1,1-7.8,1
+		C330.8,558,331,559.3,332.1,559.2L332.1,559.2z"/>
+	<path class="st28" d="M330.3,558.9c0.9,1.8,0.7,3.7-0.5,5.4c-0.5,0.7,1.2,1.3,1.7,0.5c1.4-2,1.6-4.3,0.6-6.4
+		C331.7,557.6,330,558.1,330.3,558.9L330.3,558.9z"/>
+	<path class="st28" d="M332.2,553.1c4.3-10.9,13.6-14.4,20.7-7.7c1.2,1.1,2.2,2.4,3.2,4c0.5,0.9,1.4-0.4,0.9-1.3
+		c-6.2-10.1-16.5-10.6-23-1.1c-1.1,1.5-3.3,3.6-4.1,5.5C329.4,553.5,331.8,554.2,332.2,553.1L332.2,553.1z"/>
+	<path class="st28" d="M357.4,549.1c-2.8,0.1-5.6,0.4-8.3,1.1c-1.1,0.3-0.4,1.5,0.7,1.2c2.5-0.6,5.1-1,7.8-1
+		C358.8,550.3,358.5,549,357.4,549.1L357.4,549.1z"/>
+	<path class="st28" d="M359.2,549.4c-0.9-1.8-0.7-3.7,0.5-5.4c0.5-0.7-1.2-1.3-1.7-0.5c-1.4,2-1.6,4.3-0.6,6.4
+		C357.8,550.7,359.5,550.2,359.2,549.4L359.2,549.4z"/>
+</g>
+</svg>
