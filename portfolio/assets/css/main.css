@@ -2706,11 +2706,10 @@ grid-auto-columns: 3fr, 1fr;
 
 li {
 	list-style: none;
-	/* background-image:none;
+	background-image:none;
 			background-repeat:none;
-			background-position:5px;   */
-	/* border: 1px red dashed; */
-	/* padding-bottom: 5px; */
+			background-position:5px;
+	padding-bottom: 5px;
 
 }
 
