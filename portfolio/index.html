@@ -10,7 +10,7 @@ Credits to some icons from www.flaticon.com.
 <head>
   <title>Vladimir Potiyevskiy's Portfolio</title>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width initial-scale=1 shrink-to-fit=no ">
+  <meta name="viewport" content="width=device-width initial-scale=1 shrink-to-fit=no">
   <link rel="shortcut icon" href="favicon.ico">
   <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
   <link rel="stylesheet" href="assets/css/main.css">
@@ -31,24 +31,48 @@ Credits to some icons from www.flaticon.com.
     ga('create', 'UA-106395783-1', 'auto');
     ga('send', 'pageview');
   </script>
+
+
+  <!-- js for dropdown -->
+  <script>
+    /* When the user clicks on the button,
+                    toggle between hiding and showing the dropdown content */
+    function myFunction() {
+      document.getElementById("myDropdown").classList.toggle("show");
+    }
+
+    // Close the dropdown menu if the user clicks outside of it
+    window.onclick = function(event) {
+      if (!event.target.matches('.dropbtn')) {
+
+        var dropdowns = document.getElementsByClassName("dropdown-content");
+        var i;
+        for (i = 0; i < dropdowns.length; i++) {
+          var openDropdown = dropdowns[i];
+          if (openDropdown.classList.contains('show')) {
+            openDropdown.classList.remove('show');
+          }
+        }
+      }
+    }
+  </script>
+
+
 </head>
 
 <body>
-
   <!-- Header -->
   <div id="header">
     <div class="top">
 
       <!-- Logo -->
       <div id="logo"> <span class="image avatar48"><img src="images/prf_icon.png" alt="profile icon of Vlad" /></span>
-        <h1 id="title" style="font-size: 16px">Vladimir Potiyevskiy</h1>
+        <a href="index.html"><h1 id="title"  style="font-size: 16px">Vladimir Potiyevskiy</h1></a>
         <p>UX Designer</p>
       </div>
-
       <!-- Nav -->
       <nav id="nav">
         <!--
-
 								Prologue's nav expects links in one of two formats:
 
 								1. Hash link (scrolls to a different section within the page)
@@ -59,14 +83,27 @@ Credits to some icons from www.flaticon.com.
 
 								   <li><a href="http://foobar.tld" id="foobar-link" class="icon fa-whatever-icon-you-want"><span class="label">Foobar</span></a></li>
 							-->
-        <ul>
-          <li><a href="#top" id="top-link" class="skel-layers-ignoreHref"><span class="icon fa-home">Home</span></a></li>
-          <li><a href="#portfolio" id="portfolio-link"><span class="icon fa-th">Portfolio</span> </a></li>
-          <li><a href="#processz" id="processz-link" class="skel-layers-ignoreHref"><span class="icon fa-repeat">My Design Process</span></a></li>
-          <li><a href="#about" id="about-link" class="skel-layers-ignoreHref"><span class="icon fa-user">About </span></a></li>
-        </ul>
+        <div class="dropdown">
+          <ul>
+            <li><a href="#top" id="top-link" class="skel-layers-ignoreHref"><span class="icon fa-home">Home</span></a></li>
+            <li onclick="myFunction()" href="#portfolio">
+              <a class="dropbtn" href="#"> <span class="icon fa-th"> Portfolio <i class="icon fa-angle-down"></i></span></a>
+            </li>
+            <div id="myDropdown" class="dropdown-content">
+              <a href="quickup.html">Quick-Up</a>
+              <a href="plateforward.html">PlateForward</a>
+              <a href="mealspace.html">MealSpace</a>
+              <a href="ydcv.html">YDCV Consulting</a>
+              <a href="precipistation.html">Precipi-Station</a>
+              <a href="eoh.html">Engineering Open House</a>
+            </div>
+            <li><a href="#processz" id="processz-link" class="skel-layers-ignoreHref"><span class="icon fa-repeat">My Design Process</span></a></li>
+            <li><a href="#about" id="about-link" class="skel-layers-ignoreHref"><span class="icon fa-user">About </span></a></li>
+          </ul>
+        </div>
       </nav>
     </div>
+
     <div class="bottom">
 
       <!-- Social Icons -->
@@ -114,7 +151,7 @@ Credits to some icons from www.flaticon.com.
               <!-- 1/6 -->
               <article class="item">
                 <h3>Quick-Up</h3>
-                <a href="quickup.html" class="image fit"><img class="myImg" src="images/quickup.png" alt="a screenshot of quick up application used as a banner icon" /></a>
+                <a href="quickup.html" class="image fit"><img class="portfolioHover" src="images/quickup.png" alt="a screenshot of quick up application used as a banner icon" /></a>
                 <header>
                   <h3>UX Design and Research</h3>
                 </header>
@@ -122,7 +159,7 @@ Credits to some icons from www.flaticon.com.
               <!-- 3/6 -->
               <article class="item">
                 <h3>MealSpace</h3>
-                <a href="mealspace.html" class="image fit"><img class="myImg" src="images/mealspace.png" alt="a screenshot of mealspace project used as a banner icon" /></a>
+                <a href="mealspace.html" class="image fit"><img class="portfolioHover" src="images/mealspace.png" alt="a screenshot of mealspace project used as a banner icon" /></a>
                 <header>
                   <h3>Student Design Competition – CHI 2018</h3>
                 </header>
@@ -130,7 +167,7 @@ Credits to some icons from www.flaticon.com.
               <!-- 5/6 -->
               <article class="item">
                 <h3>Precipi-Station</h3>
-                <a href="precipistation.html" class="image fit"><img class="myImg"src="images/precipistation.png" alt="a screenshot of precipistation project as a banner icon" /></a>
+                <a href="precipistation.html" class="image fit"><img class="portfolioHover"src="images/precipistation.png" alt="a screenshot of precipistation project as a banner icon" /></a>
                 <header>
                   <h3> UX Design and Research</h3>
                 </header>
@@ -141,7 +178,7 @@ Credits to some icons from www.flaticon.com.
               <!-- 2/6 -->
               <article class="item">
                 <h3>Plate Forward</h3>
-                <a href="plateforward.html" class="image fit"><img class="myImg" src="images/plateforward.png" alt="a screenshot of plateforward volunteer as a banner icon" /></a>
+                <a href="plateforward.html" class="image fit"><img class="portfolioHover" src="images/plateforward.png" alt="a screenshot of plateforward volunteer as a banner icon" /></a>
                 <header>
                   <h3> Nonprofit UX Design Sprint</h3>
                 </header>
@@ -149,7 +186,7 @@ Credits to some icons from www.flaticon.com.
               <!-- 4/6 -->
               <article class="item">
                 <h3>YDCV Consulting</h3>
-                <a href="ydcv.html" class="image fit"><img class="myImg" src="images/ydcv.png" alt="a screen shot of ydcv project used as a banner icon" /></a>
+                <a href="ydcv.html" class="image fit"><img class="portfolioHover" src="images/ydcv.png" alt="a screen shot of ydcv project used as a banner icon" /></a>
                 <header>
                   <h3> Contextual Inquiry Case Study</h3>
                 </header>
@@ -158,7 +195,7 @@ Credits to some icons from www.flaticon.com.
               <!-- 6/6 -->
               <article class="item">
                 <h3>Engineering Open House</h3>
-                <a href="eoh.html" class="image fit"><img class="myImg" src="images/eoh.png" alt="a screenshot of eoh project as a banner icon" /></a>
+                <a href="eoh.html" class="image fit"><img class="portfolioHover" src="images/eoh.png" alt="a screenshot of eoh project as a banner icon" /></a>
                 <header>
                   <h3>Graphic/Brand Design</h3>
                 </header>
@@ -201,51 +238,61 @@ Credits to some icons from www.flaticon.com.
         </div>
       </section>
 
-
-
-
-
       <!-- About Me -->
       <section id="about" class="four">
-        <div class="container" >
+        <div class="container">
           <header>
             <h2>Vladimir Who?</h2>
           </header>
           <p>Vladimir's curiosity for all things technology drives his craving to solve complex problems with a human-centered design approach. Some things that keep him up at night are; figure out the best way to make the physical space around him more
             accessible and user-friendly, learn the pros and cons of augmented/virtual reality and how to effectively implement it into everyday life and figure out what toppings to get on his pizza. Some of his tools of success are; a notepad, laptop
             with Photoshop and Sketch, and J Cole's 2014 Forests Hill Drive album. He grew up in the Chicagoland area. Chicago is known for its rich history of diverse culture, food, music, people and politics which constantly influences Vladimir's thinking
-            and work. Vladimir is always looking out for new Hip-Hop, try new food and find running paths. Currently, he is thinking about product design, AI, accessibility, fitness and wearable technology.</p>
-          <img style="width: 35%" class="myImg" src="images/got_chair.JPG" alt="All hail His Grace, Vladimir of House Potiyevskiy, First of His Name, King of the Andals and the First Men, Lord of the Seven Kingdoms, and Protector of the Realm! @ www.instagram.com/drinkcompany/ ">
+            and work. Vladimir is always looking out for new music, try new food and find running new paths. Currently, he is thinking about product design, AI, accessibility, wearable technology, and VR.</p>
 
+          <div class="12u$(mobile)">
 
+            <img style="width: 50%" class="myImg" src="images/got_chair.JPG" alt="All hail His Grace, Vladimir of House Potiyevskiy, First of His Name, King of the Andals and the First Men, Lord of the Seven Kingdoms, and Protector of the Realm! @ www.instagram.com/drinkcompany/ "></div>
           <br>
           <br>
 
           <h2>Education</h2>
           <p>My undergraduate education was in Psychology from the University of Illinois at Urbana-Champaign. There, I was drawn to studying human behavior. After discovering that there was a field of study that allowed me to combine technology and psychology,
-            I knew I had to pivot. I shifted my focus to solving problems through design which lead me to pursue a Masters of Science from the University of Michigan. There I am focusing on Human-Computer Interaction. I hope one day to solve some of the
-            world's most difficult problems.</p>
-          <img style="width: 18%" src="images/Illinois_Block_I.png" alt="block I logo of Univeristy of Illinois">
+            I knew I had to pivot. I shifted my focus to solving problems through design which lead me to pursue a Masters of Science from the University of Michigan. There I am focusing on Human-Computer Interaction.</p>
+          <div class="row">
+            <div class="6u 12u$(mobile)">
+              <img style="width: 38%" src="images/Illinois_Block_I.png" alt="block I logo of Univeristy of Illinois">
+            </div>
 
-          <img style="width: 25%" src="images/Michigan_Block_M.png" alt="block M logo of University of Michigan">
+            <div class="6u 12u$(mobile)">
+              <img style="width: 50%" src="images/Michigan_Block_M.png" alt="block M logo of University of Michigan">
+            </div>
+          </div>
+
           <br>
           <br>
 
 
-          <h2>Culture</h2>
-          <p>Although my household spoke Russian, I was never able to receive a proper education in Russian in terms of grammar, reading, and writing. I wasn't comfortable with that lack of education so I went out and enrolled in Russian grammar courses.
-            I had fallen in love with it so much that I obtained a minor in Russian, East European and Eurasian Studies. I had grown to further develop my language and the history of Russia through literature and media. Additionally, I was awarded the
-            U.S. National Foreign Language and Area Studies fellowship.</p>
-          <img style="width: 35%" src="images/profile.png" class="myImg" alt="Wait...is that a chicken foot?">
+          <h2>My Culture</h2>
+          <p>Although my household spoke Russian, I never received a proper education in Russian in terms of grammar, reading, and writing. In college this made me uncomfortable so I went out and enrolled in Russian grammar courses. This led me to obtain
+            a minor in Russian, East European and Eurasian Studies and win the U.S. National Foreign Language and Area Studies Fellowship. I had grown to further develop my language and the history of Russia through literature and media.</p>
+          <div class="12u$(mobile)">
+
+            <img style="width: 50%" src="images/profile.png" class="myImg" alt="Wait...is that a chicken foot?"></div>
           <br><br>
 
 
           <h2>Adventurous</h2>
           <p>From jumping out of planes to hiking mountains in Japan, I have a passion to try new things. I also enjoy figuring how a gadget works which leads me taking it apart and putting it back together. This led to fixing a lot of iPhones, computers,
             and Xbox Controllers. In addition to these, I call myself a gamer because at the end of the day, solving puzzles and rescuing the princess from castles is not much different than solving problems through a human-centered design approach.</p>
-          <img style="width: 40%" class="myImg" src="images/coconut.jpg" alt="The exact moment I fell in love with coconut water.">
-          <img style="width: 40%" class="myImg" src="images/skydive.png" alt="When my partner in crime asked if I wanted to skydive, I didn't hesitate to say yes.">
+          <div class="row">
+            <div class="6u 12u$(mobile)">
+              <img style="width: 50%" class="myImg" src="images/coconut.jpg" alt="The exact moment I fell in love with coconut water.">
+            </div>
 
+            <div class="6u 12u$(mobile)">
+              <img style="width: 50%" class="myImg" src="images/skydive.png" alt="When my partner in crime asked if I wanted to skydive, I didn't hesitate to say yes.">
+            </div>
+          </div>
         </div>
       </section>
     </div>
@@ -257,7 +304,7 @@ Credits to some icons from www.flaticon.com.
     <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
 
     <!-- Modal Content (The Image) -->
-    <!-- <img class="modal-content" id="img01" alt=".."> -->
+    <img class="modal-content" id="img01">
 
     <!-- Modal Caption (Image Text) -->
     <div id="caption"></div>

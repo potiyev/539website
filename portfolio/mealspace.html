@@ -31,6 +31,28 @@ Credits to some icons from www.flaticon.com.
 		ga('create', 'UA-106395783-1', 'auto');
 		ga('send', 'pageview');
 	</script>
+	<script>
+		/* When the user clicks on the button,
+										toggle between hiding and showing the dropdown content */
+		function myFunction() {
+			document.getElementById("myDropdown").classList.toggle("show");
+		}
+
+		// Close the dropdown menu if the user clicks outside of it
+		window.onclick = function(event) {
+			if (!event.target.matches('.dropbtn')) {
+
+				var dropdowns = document.getElementsByClassName("dropdown-content");
+				var i;
+				for (i = 0; i < dropdowns.length; i++) {
+					var openDropdown = dropdowns[i];
+					if (openDropdown.classList.contains('show')) {
+						openDropdown.classList.remove('show');
+					}
+				}
+			}
+		}
+	</script>
 </head>
 
 <body>
@@ -43,30 +65,46 @@ Credits to some icons from www.flaticon.com.
 			<!-- Logo -->
 			<div id="logo">
 				<span class="image avatar48"><img src="images/prf_icon.png" alt="" /></span>
-				<h1 id="title" style="font-size: 16px">Vladimir Potiyevskiy</h1>
+				<a href="index.html"><h1 id="title"  style="font-size: 16px">Vladimir Potiyevskiy</h1></a>
 				<p>UX Designer</p>
 			</div>
 
 			<!-- Nav -->
 			<nav id="nav">
+				<!--
+								Prologue's nav expects links in one of two formats:
 
-				<ul>
-					<li><a href="index.html" id="top-link" class="skel-layers-ignoreHref"><span class="icon fa-home">Home</span></a></li>
-					<div class="dropdown">
-						<li><a href="index.html#portfolio" id="portfolio-link"><span class="icon fa-th">Portfolio</span> </a></li>
+								1. Hash link (scrolls to a different section within the page)
 
+									 <li><a href="#foobar" id="foobar-link" class="icon fa-whatever-icon-you-want skel-layers-ignoreHref"><span class="label">Foobar</span></a></li>
 
-					</div>
-					<li><a href="index.html#processz" id="processz-link" class="skel-layers-ignoreHref"><span class="icon fa-repeat">My Design Process</span></a></li>
+								2. Standard link (sends the user to another page/site)
 
-					<li><a href="index.html#about" id="about-link" class="skel-layers-ignoreHref"><span class="icon fa-user">About </span></a></li>
-					<br>
-					<li><a href="#fast" id="fast-link" class="skel-layers-ignoreHref"><span class="icon fa-circle-o-notch">Fast Facts</span></a></li>
-					<li><a href="#problem" id="problem-link" class="skel-layers-ignoreHref"><span class="icon fa-circle-o-notch">The Problem</span></a></li>
-					<li><a href="#process" id="process-link" class="skel-layers-ignoreHref"><span class="icon fa-circle-o-notch">The Process</span></a></li>
-					<li><a href="#solution" id="solution-link" class="skel-layers-ignoreHref"><span class="icon fa-circle-o-notch">The Solution</span></a></li>
-					<li><a href="#summary" id="summary-link" class="skel-layers-ignoreHref"><span class="icon fa-circle-o-notch">Summary and Reflection</span></a></li>
-				</ul>
+									 <li><a href="http://foobar.tld" id="foobar-link" class="icon fa-whatever-icon-you-want"><span class="label">Foobar</span></a></li>
+							-->
+				<div class="dropdown">
+					<ul>
+						<li><a href="index.html" id="top-link" class="skel-layers-ignoreHref"><span class="icon fa-home">Home</span></a></li>
+						<li onclick="myFunction()">
+							<a class="dropbtn" href="#" id="portfolio-link"> <span class="icon fa-th"> Portfolio <i class="icon fa-angle-down"></i></span></a>
+						</li>
+						<div id="myDropdown" class="dropdown-content">
+							<a href="quickup.html">Quick-Up</a>
+							<a href="plateforward.html">PlateForward</a>
+							<a class="actv" href="mealspace.html">MealSpace</a>
+							<a href="ydcv.html">YDCV Consulting</a>
+							<a href="precipistation.html">Precipi-Station</a>
+							<a href="eoh.html">Engineering Open House</a>
+						</div>
+						<li><a href="index.html#processz" id="processz-link" class="skel-layers-ignoreHref"><span class="icon fa-repeat">My Design Process</span></a></li>
+						<li><a href="index.html#about" id="about-link" class="skel-layers-ignoreHref"><span class="icon fa-user">About </span></a></li>
+						<br />
+						<li><a href="#fast" id="fast-link" class="skel-layers-ignoreHref"><span class="icon fa-chevron-right">Fast Facts</span></a></li>
+						<li><a href="#process" id="process-link" class="skel-layers-ignoreHref"><span class="icon fa-chevron-right"> The Process</span></a></li>
+						<li><a href="#solution" id="solution-link" class="skel-layers-ignoreHref"><span class="icon fa-chevron-right"> The Solution Overview</span></a></li>
+						<li><a href="#summary" id="summary-link" class="skel-layers-ignoreHref"><span class="icon fa-chevron-right">Summary</span></a></li>
+					</ul>
+				</div>
 			</nav>
 
 		</div>
@@ -74,8 +112,6 @@ Credits to some icons from www.flaticon.com.
 		<div class="bottom">
 
 			<!-- Social Icons -->
-
-
 			<ul class="icons">
 				<li><a href="https://www.behance.net/vladimirpo5229" target="_blank" class="icon alt fa-behance"><span class="label">Behance</span></a></li>
 				<li><a href="https://dribbble.com/vpotiyev" target="_blank" class="icon alt fa-dribbble"><span class="label">Dribbble</span></a></li>
@@ -169,8 +205,7 @@ Credits to some icons from www.flaticon.com.
 				<header>
 					<h2>The Problem </h2>
 				</header>
-				<p>Moving to college is a tough transition for students: increased workload, social pressure, and no more home-cooked meals. Of all these factors, students undermine the importance of balanced, healthy meals. While on-campus meal plans aim to provide
-					students with a variety of food choices, a freshman on average “gain weight 5.5 times greater” than the general population (Mihalopoulos et al., 2008).
+				<p>Moving to college is a tough transition for students: increased workload, social pressure, and no more home-cooked meals. Of all these factors, students undermine the importance of balanced, healthy meals. While on-campus meal plans aim to provide students with a variety of food choices, a freshman on average can gain weight 5X greater than the general population.
 				</p>
 
 
@@ -199,13 +234,17 @@ Credits to some icons from www.flaticon.com.
 				<h3>Process Summary</h3>
 				<p> After identifying the different needs that our users have, we used a priority matrix based approach to develop ideas. We wrote different needs of our users along with an axis and assigned them weights based on our research findings; along the other
 					axis, we wrote different ways these solutions can be implemented. After coming up with these ideas, we ranked them and chose <strong>MealSpace</strong> because it tackled the issues of time and nutrition most efficiently. </p>
-				<img style="width: 70%;" class="myImg" src="images/src imgs/mealspace/solution matrix.png" /><br>
+				<div class="row">
 
+					<div class="6u 12u$(mobile)">
+						<img style="width:100%;" class="myImg" src="images/src imgs/mealspace/solution matrix.png" alt="solution matrix we created to solidfy what direction we were going to go.">
+					</div>
 
-				<div class="container">
-					<div><span><img style="width:80%;"  class="myImg" src="images/src imgs/mealspace/IMG_0858.JPG" alt="Our initial sketches."></span>
+					<div class="6u 12u$(mobile)">
+						<img style="width:100%;" class="myImg" src="images/src imgs/mealspace/IMG_0858.JPG" alt="Our initial sketches.">
 					</div>
 				</div>
+
 			</div>
 		</section>
 
@@ -214,45 +253,54 @@ Credits to some icons from www.flaticon.com.
 			<div class="container">
 				<header>
 					<h2>The Solution Overview</h2>
+				</header>
 
-					<p>Mealspace brings people together into a single space in order to create a creative culinary atmosphere that focuses on <strong>nutrition, cost, </strong>and <strong>time</strong>. We source from <strong>local farmers</strong> that grow marvelous
-						vegetables and source the highest and safest meat and dairy products allows us to give back to our community. With the use of freeze and cold storage technology, we’re able to provide local and tasty ingredients all year! The <strong>convenience</strong>						of location and <strong>provided materials</strong> makes Mealspace the prime stop to come and create an outstanding meal with friends or meal prep for a student’s busy week. Every meal creation with us supports <strong>student health</strong>,
-						<strong>the local food ecosystem</strong>, and <strong>economy</strong>.
-					</p>
-					<iframe width="560" height="315" src="https://www.youtube.com/embed/9bihxCuzNao?rel=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+				<p>Mealspace brings people together into a single space in order to create a creative culinary atmosphere that focuses on <strong>nutrition, cost, </strong>and <strong>time</strong>. We source from <strong>local farmers</strong> that grow marvelous vegetables
+					and source the highest and safest meat and dairy products allows us to give back to our community. With the use of freeze and cold storage technology, we’re able to provide local and tasty ingredients all year! The <strong>convenience</strong> of
+					location and <strong>provided materials</strong> makes Mealspace the prime stop to come and create an outstanding meal with friends or meal prep for a student’s busy week. Every meal creation with us supports <strong>student health</strong>,
+					<strong>the local food ecosystem</strong>, and <strong>economy</strong>.
+				</p>
+				<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/9bihxCuzNao?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> <br />
+				<br>
 
-
-				</header><br>
-				<div class="inner">
-					<header class="major"></header>
-					<div class="row 50% uniform">
-						<div class="4u"><span class="image fit"><strong> Step 1: </strong> Students visit the website and schedule a session.<img class="myImg" src="images/src imgs/mealspace/step1.png"   alt="" /></span></div>
-						<div class="4u"><span class="image fit"><strong> Step 2: </strong> Users arrive at designated cook stations and sign in.<img class="myImg" src="images/src imgs/mealspace/step2.png" alt="" /></span></div>
-						<div class="4u$"><span class="image fit"><strong> Step 3: </strong> Tablet app shows step-by-step instructions.<img class="myImg"  src="images/src imgs/mealspace/step3.png" alt="" /></span></div>
-
+				<div class="row">
+					<div class="4u 12u$(mobile)">
+						<span class="image fit"><strong> Step 1: </strong> Students visit the website and schedule a session.<img class="myImg" src="images/src imgs/mealspace/step1.png"   alt="" /></span>
 					</div>
+					<div class="4u 12u$(mobile)"><span class="image fit"><strong> Step 2: </strong> Users arrive at designated cook stations and sign in.<img class="myImg" src="images/src imgs/mealspace/step2.png" alt="" /></span>
+					</div>
+					<div class="4u 12u$(mobile)"><span class="image fit"><strong> Step 3: </strong> Tablet app shows step-by-step instructions.<img class="myImg"  src="images/src imgs/mealspace/step3.png" alt="" /></span>
+					</div>
+
 				</div>
 			</div>
+
 		</section>
 
 
 		<section class="two">
 			<div class="container">
-				<h2>High Fidelity Prototype</h2>
+				<header>
+					<h2>High Fidelity Prototype</h2>
+				</header>
 				<h3>Website</h3>
 				<li>It allows users to reserve the station they wish to work at. </li>
 				<li>Pick out specific recipes to ensure the ingredients will be available when they get there.</li>
-				<li>It also allows users to invite others to the experience. </li>
-				<div class="inner">
-					<header class="major"></header>
-					<div class="row 50% uniform">
-						<div class="4u"><span class="image fit"><img class="myImg" src="images/src imgs/mealspace/website ss/1.png"   alt="" /></span></div>
-						<div class="4u"><span class="image fit"><img class="myImg" src="images/src imgs/mealspace/website ss/2.png" alt="" /></span></div>
-						<div class="4u$"><span class="image fit"><img class="myImg"  src="images/src imgs/mealspace/website ss/3.png" alt="" /></span></div>
-						<!-- Break -->
-						<div class="4u"><span class="image fit"><img class="myImg" src="images/src imgs/mealspace/website ss/4.png" alt="" /></span></div>
-						<div class="4u"><span class="image fit"><img class="myImg" src="images/src imgs/mealspace/website ss/5.png" alt="" /></span></div>
-						<div class="4u$"><span class="image fit"><img class="myImg" src="images/src imgs/mealspace/website ss/6.png" alt="" /></span></div>
+				<li>It also allows users to invite others to the experience. </li><br />
+				<div class="row">
+					<div class="4u 12u$(mobile)"><span><img style="width:100%" class="myImg" src="images/src imgs/mealspace/website ss/1.png"   alt="" /></span>
+					</div>
+					<div class="4u 12u$(mobile)"><span><img style="width:100%" class="myImg" src="images/src imgs/mealspace/website ss/2.png" alt="" /></span>
+					</div>
+					<div class="4u 12u$(mobile)"><span><img style="width:100%" class="myImg" src="images/src imgs/mealspace/website ss/3.png" alt="" /></span>
+					</div>
+				</div>
+				<div class="row">
+					<div class="4u 12u$(mobile)"><span><img style="width:100%" class="myImg" src="images/src imgs/mealspace/website ss/4.png" alt=""  /></span>
+					</div>
+					<div class="4u 12u$(mobile)"><span><img style="width:100%" class="myImg" src="images/src imgs/mealspace/website ss/5.png" alt="" /></span>
+					</div>
+					<div class="4u 12u$(mobile)"><span><img style="width:100%" class="myImg"  src="images/src imgs/mealspace/website ss/6.png" alt="" /></span>
 					</div>
 				</div>
 
@@ -266,7 +314,7 @@ Credits to some icons from www.flaticon.com.
 					<li> Sends the recipe to you so you can cook it yourself later.</li>
 				</ol>
 				<br>
-				<h3><strong><a href="https://invis.io/KYF25HG6W" target="_blank">Link to prototype</a></strong></h3>
+				<h2><a href="https://invis.io/KYF25HG6W" target="_blank">Link to prototype</a></h2>
 				<br>
 
 			</div>
@@ -279,11 +327,10 @@ Credits to some icons from www.flaticon.com.
 					<h2>Summary and Reflection</h2>
 				</header>
 
-				<p>Given that nutrition is a concern among students and evidence shows that weight gain is an issue, Mealspace provides an easy yet efficient way to cook nutritious meals with an opportunity to collaborate with fellow college students and learn about
-					cooking. MealSpace offers a physical space for students to get together and share an enjoyable, healthy experience. With MealSpace, eating health is no longer a dread, but a social engagement to look forward to.</p>
+				<p>Given that nutrition is a concern among students and evidence shows that weight gain is an issue, Mealspace provides an easy yet efficient way to cook nutritious meals with an opportunity to collaborate with fellow college students and learn about cooking. MealSpace offers a physical space for students to get together and share an enjoyable, healthy experience. With MealSpace, eating health is no longer a dread, but a social engagement to look forward to.</p>
 
 				<div class="container">
-					<div><span><img style="width:50%;" class="myImg" src="images/src imgs/mealspace/group_pic.jpg" alt=""></span>
+					<div><span><img style="width:75%;" class="myImg" src="images/src imgs/mealspace/group_pic.jpg" alt=""></span>
 					</div>
 				</div>
 			</div>

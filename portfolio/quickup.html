@@ -31,6 +31,28 @@ Credits to some icons from www.flaticon.com.
 		ga('create', 'UA-106395783-1', 'auto');
 		ga('send', 'pageview');
 	</script>
+	<script>
+		/* When the user clicks on the button,
+										toggle between hiding and showing the dropdown content */
+		function myFunction() {
+			document.getElementById("myDropdown").classList.toggle("show");
+		}
+
+		// Close the dropdown menu if the user clicks outside of it
+		window.onclick = function(event) {
+			if (!event.target.matches('.dropbtn')) {
+
+				var dropdowns = document.getElementsByClassName("dropdown-content");
+				var i;
+				for (i = 0; i < dropdowns.length; i++) {
+					var openDropdown = dropdowns[i];
+					if (openDropdown.classList.contains('show')) {
+						openDropdown.classList.remove('show');
+					}
+				}
+			}
+		}
+	</script>
 </head>
 
 <body>
@@ -43,28 +65,47 @@ Credits to some icons from www.flaticon.com.
 			<!-- Logo -->
 			<div id="logo">
 				<span class="image avatar48"><img src="images/prf_icon.png" alt="" /></span>
-				<h1 id="title" style="font-size: 16px">Vladimir Potiyevskiy</h1>
+				<a href="index.html"><h1 id="title"  style="font-size: 16px">Vladimir Potiyevskiy</h1></a>
 				<p>UX Designer</p>
 			</div>
 
 			<!-- Nav -->
 			<nav id="nav">
+				<!--
+								Prologue's nav expects links in one of two formats:
 
-				<ul>
-					<li><a href="index.html" id="top-link" class="skel-layers-ignoreHref"><span class="icon fa-home">Home</span></a></li>
-					<div class="dropdown">
-						<li><a href="index.html#portfolio" id="portfolio-link"><span class="icon fa-th">Portfolio</span> </a></li>
+								1. Hash link (scrolls to a different section within the page)
 
-					</div>
-					<li><a href="index.html#processz" id="processz-link" class="skel-layers-ignoreHref"><span class="icon fa-repeat">My Design Process</span></a></li>
+									 <li><a href="#foobar" id="foobar-link" class="icon fa-whatever-icon-you-want skel-layers-ignoreHref"><span class="label">Foobar</span></a></li>
 
-					<li><a href="index.html#about" id="about-link" class="skel-layers-ignoreHref"><span class="icon fa-user">About </span></a></li>
-					<br>
-					<li><a href="#fast" id="fast-link" class="skel-layers-ignoreHref"><span class="icon fa-circle-o-notch">Fast Facts</span></a></li>
-					<li><a href="#problem" id="problem-link" class="skel-layers-ignoreHref"><span class="icon fa-circle-o-notch">The Problem</span></a></li>
-					<li><a href="#process" id="process-link" class="skel-layers-ignoreHref"><span class="icon fa-circle-o-notch">The Process</span></a></li>
-					<li><a href="#summary" id="summary-link" class="skel-layers-ignoreHref"><span class="icon fa-circle-o-notch">Summary and Reflection</span></a></li>
-				</ul>
+								2. Standard link (sends the user to another page/site)
+
+									 <li><a href="http://foobar.tld" id="foobar-link" class="icon fa-whatever-icon-you-want"><span class="label">Foobar</span></a></li>
+							-->
+				<div class="dropdown">
+					<ul>
+						<li><a href="index.html" id="top-link" class="skel-layers-ignoreHref"><span class="icon fa-home">Home</span></a></li>
+						<li onclick="myFunction()">
+							<a class="dropbtn" href="#" id="portfolio-link"> <span class="icon fa-th"> Portfolio <i class="icon fa-angle-down"></i></span></a>
+						</li>
+						<div id="myDropdown" class="dropdown-content">
+							<a class="actv" href="quickup.html">Quick-Up</a>
+							<a href="plateforward.html">PlateForward</a>
+							<a href="mealspace.html">MealSpace</a>
+							<a href="ydcv.html">YDCV Consulting</a>
+							<a href="precipistation.html">Precipi-Station</a>
+							<a href="eoh.html">Engineering Open House</a>
+						</div>
+						<li><a href="index.html#processz" id="processz-link" class="skel-layers-ignoreHref"><span class="icon fa-repeat">My Design Process</span></a></li>
+						<li><a href="index.html#about" id="about-link" class="skel-layers-ignoreHref"><span class="icon fa-user">About </span></a></li>
+						<br />
+						<li><a href="#fast" id="fast-link" class="skel-layers-ignoreHref"><span class="icon fa-chevron-right">Fast Facts</span></a></li>
+						<li><a href="#problem" id="problem-link" class="skel-layers-ignoreHref"><span class="icon fa-chevron-right"> The Problem</span></a></li>
+						<li><a href="#process" id="process-link" class="skel-layers-ignoreHref"><span class="icon fa-chevron-right"> The Process</span></a></li>
+						<li><a href="#prototype" id="prototype-link" class="skel-layers-ignoreHref"><span class="icon fa-chevron-right">Prototypes</span></a></li>
+						<li><a href="#summary" id="summary-link" class="skel-layers-ignoreHref"><span class="icon fa-chevron-right">Findings and Reflection</span></a></li>
+
+					</ul>				</div>
 			</nav>
 
 		</div>
@@ -258,11 +299,11 @@ Credits to some icons from www.flaticon.com.
 
 			</div>
 		</section>
-		<section id="three">
+		<section id="prototype" class="three">
 			<div class="container">
 				<h2>Paper Prototype</h2><br>
 				<p>The result of the previous paper sketches and interaction with my users. I used this paper prototype to test it with users.</p>
-				<iframe width="560" height="315" src="https://www.youtube.com/embed/Csx4Ne45IS8?rel=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+				<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Csx4Ne45IS8?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 				<br />
 			</div>
 
@@ -272,7 +313,7 @@ Credits to some icons from www.flaticon.com.
 				<p>I learned a lot from testing the paper prototype with my users. Which can be seen in the reflection section. But to summarize, I learned that users needed more variety to how many users they wish to play with such as minimum vs maximums. I also learned
 					about user's need for a social profile about the person they're playing with.</p>
 
-				<iframe width="560" height="315" src="https://www.youtube.com/embed/6OUaNiQYJaQ" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+				<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/6OUaNiQYJaQ?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 
 
