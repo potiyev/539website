@@ -33,7 +33,7 @@ Credits to some icons from www.flaticon.com.
   </script>
   <script>
     /* When the user clicks on the button,
-                													toggle between hiding and showing the dropdown content */
+                    													toggle between hiding and showing the dropdown content */
     function myFunction() {
       document.getElementById("myDropdown").classList.toggle("show");
     }
@@ -64,7 +64,7 @@ Credits to some icons from www.flaticon.com.
 
       <!-- Logo -->
       <div id="logo">
-        <span class="image avatar48"><img src="images/prf_icon.png" alt="" /></span>
+        <a href="index.html" class="image avatar48"><img src="images/prf_icon.png" alt="profile icon of Vlad" /></a>
         <a href="index.html"><h1 id="title"  style="font-size: 16px">Vladimir Potiyevskiy</h1></a>
         <p>UX Designer</p>
       </div>
@@ -255,11 +255,11 @@ Credits to some icons from www.flaticon.com.
 											Bill “Too much on my mind”:
 											</h3>
 
-            <ul>
+            <ul class="personaList">
               <li>Is regaluraly forgetting things at home and is constantly going back home to grab extra things.</li>
-              <br />
+
               <li>Perhaps has a lot of things in his mind that makes checking the weather less of a priority</li>
-              <br />
+
               <li>Perhaps has a lot of things in his mind that makes checking the weather less of a priority</li>
             </ul>
 
@@ -268,20 +268,21 @@ Credits to some icons from www.flaticon.com.
           <div class="4u 12u$(mobile)">
             <h3><img style="width:40%;" src="images/src_imgs/avatar_profiles/Sydney.svg" alt="" /> <br>
 											Sydney “The Minimalist”: </h3>
-            <ul>
+            <ul class="personaList">
               <li>The one rule that she always followed by was "the less, the better" when it came to taking things with her when she left her house. In sum, only the bare essentials for the day </li>
-              <br>
+
               <li>She would constantly plan her day out to figure out what exactly she needs vs wants to bring with her</li>
-              <br>
+
               <li>Is always on her feet, therefore, cannot bring a ton of stuff either on her back or her shoulder.</li>
             </ul>
           </div>
 
           <div class="4u 12u$(mobile)">
-            <h3><img style="width:40%;" src="images/src_imgs/avatar_profiles/kale.svg" alt=""  /> <br>Kale “The Rusher”:</h3>
-            <ul>
-              <li>Never has enough time to do everything he has hoped for before heading out the house. Calculates the maximum amount of time he has before he needs to leave the door</li><br>
-              <li>Brings extra things with him just in case he might need them throughout the day. Lives by the "Better safe than sorry" mantra when it comes to packing </li><br>
+            <h3><img style="width:40%;" src="images/src_imgs/avatar_profiles/kale.svg" alt=""  /> <br>
+              Kale “Morning Rusher”:</h3>
+            <ul class="personaList">
+              <li>Never has enough time to do everything he has hoped for before heading out the house. Calculates the maximum amount of time he has before he needs to leave the door</li>
+              <li>Brings extra things with him just in case he might need them throughout the day. Lives by the "Better safe than sorry" mantra when it comes to packing </li>
               <li>Doesn't even think about checking the weather because those are precious seconds that could be used by other means.</li>
             </ul>
           </div>
@@ -404,7 +405,7 @@ Credits to some icons from www.flaticon.com.
     <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
 
     <!-- Modal Content (The Image) -->
-    <img class="modal-content" id="img01" src=" " alt="">
+    <img class="modal-content hidden" id="img01" src="_blank" alt="">
 
     <!-- Modal Caption (Image Text) -->
     <div id="caption"></div>

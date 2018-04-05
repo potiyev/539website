@@ -16,62 +16,62 @@ Credits to some icons from www.flaticon.com.
   <link rel="stylesheet" href="assets/css/main.css">
   <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
   <!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-	<script>
-		(function(i, s, o, g, r, a, m) {
-			i['GoogleAnalyticsObject'] = r;
-			i[r] = i[r] || function() {
-				(i[r].q = i[r].q || []).push(arguments)
-			}, i[r].l = 1 * new Date();
-			a = s.createElement(o),
-				m = s.getElementsByTagName(o)[0];
-			a.async = 1;
-			a.src = g;
-			m.parentNode.insertBefore(a, m)
-		})(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
-		ga('create', 'UA-106395783-1', 'auto');
-		ga('send', 'pageview');
-	</script>
-	<script>
-		/* When the user clicks on the button,
-										toggle between hiding and showing the dropdown content */
-		function myFunction() {
-			document.getElementById("myDropdown").classList.toggle("show");
-		}
+  <script>
+    (function(i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r;
+      i[r] = i[r] || function() {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date();
+      a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0];
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+    ga('create', 'UA-106395783-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+  <script>
+    /* When the user clicks on the button,
+        										toggle between hiding and showing the dropdown content */
+    function myFunction() {
+      document.getElementById("myDropdown").classList.toggle("show");
+    }
 
-		// Close the dropdown menu if the user clicks outside of it
-		window.onclick = function(event) {
-			if (!event.target.matches('.dropbtn')) {
+    // Close the dropdown menu if the user clicks outside of it
+    window.onclick = function(event) {
+      if (!event.target.matches('.dropbtn')) {
 
-				var dropdowns = document.getElementsByClassName("dropdown-content");
-				var i;
-				for (i = 0; i < dropdowns.length; i++) {
-					var openDropdown = dropdowns[i];
-					if (openDropdown.classList.contains('show')) {
-						openDropdown.classList.remove('show');
-					}
-				}
-			}
-		}
-	</script>
+        var dropdowns = document.getElementsByClassName("dropdown-content");
+        var i;
+        for (i = 0; i < dropdowns.length; i++) {
+          var openDropdown = dropdowns[i];
+          if (openDropdown.classList.contains('show')) {
+            openDropdown.classList.remove('show');
+          }
+        }
+      }
+    }
+  </script>
 </head>
 
 <body>
 
-	<!-- Header -->
-	<div id="header">
+  <!-- Header -->
+  <div id="header">
 
-		<div class="top">
+    <div class="top">
 
-			<!-- Logo -->
-			<div id="logo">
-				<span class="image avatar48"><img src="images/prf_icon.png" alt="" /></span>
-				<a href="index.html"><h1 id="title"  style="font-size: 16px">Vladimir Potiyevskiy</h1></a>
-				<p>UX Designer</p>
-			</div>
+      <!-- Logo -->
+      <div id="logo">
+        <a href="index.html" class="image avatar48"><img src="images/prf_icon.png" alt="profile icon of Vlad" /></a>
+        <a href="index.html"><h1 id="title"  style="font-size: 16px">Vladimir Potiyevskiy</h1></a>
+        <p>UX Designer</p>
+      </div>
 
-			<!-- Nav -->
-			<nav id="nav">
-				<!--
+      <!-- Nav -->
+      <nav id="nav">
+        <!--
 								Prologue's nav expects links in one of two formats:
 
 								1. Hash link (scrolls to a different section within the page)
@@ -82,293 +82,293 @@ Credits to some icons from www.flaticon.com.
 
 									 <li><a href="http://foobar.tld" id="foobar-link" class="icon fa-whatever-icon-you-want"><span class="label">Foobar</span></a></li>
 							-->
-				<div class="dropdown">
-					<ul>
-						<li><a href="index.html" id="top-link" class="skel-layers-ignoreHref"><span class="icon fa-home">Home</span></a></li>
-						<li onclick="myFunction()">
-							<a class="dropbtn" href="#" id="portfolio-link"> <span class="icon fa-th"> Portfolio <i id="actv" class="icon fa-angle-down"></i></span></a>
-						</li>
-						<li id="myDropdown" class="dropdown-content">
-							<a href="quickup.html">Quick-Up</a>
-							<a href="plateforward.html">PlateForward</a>
-							<a class="actv" href="mealspace.html">MealSpace</a>
-							<a href="ydcv.html">YDCV Consulting</a>
-							<a href="precipistation.html">Precipi-Station</a>
-							<a href="eoh.html">Engineering Open House</a>
-						</li>
-						<li><a href="index.html#processz" id="processz-link" class="skel-layers-ignoreHref"><span class="icon fa-repeat">My Design Process</span></a></li>
-						<li style="padding-bottom:2.5em;"><a href="index.html#about" id="about-link" class="skel-layers-ignoreHref"><span class="icon fa-user">About </span></a></li>
+        <div class="dropdown">
+          <ul>
+            <li><a href="index.html" id="top-link" class="skel-layers-ignoreHref"><span class="icon fa-home">Home</span></a></li>
+            <li onclick="myFunction()">
+              <a class="dropbtn" href="#" id="portfolio-link"> <span class="icon fa-th"> Portfolio <i id="actv" class="icon fa-angle-down"></i></span></a>
+            </li>
+            <li id="myDropdown" class="dropdown-content">
+              <a href="quickup.html">Quick-Up</a>
+              <a href="plateforward.html">PlateForward</a>
+              <a class="actv" href="mealspace.html">MealSpace</a>
+              <a href="ydcv.html">YDCV Consulting</a>
+              <a href="precipistation.html">Precipi-Station</a>
+              <a href="eoh.html">Engineering Open House</a>
+            </li>
+            <li><a href="index.html#processz" id="processz-link" class="skel-layers-ignoreHref"><span class="icon fa-repeat">My Design Process</span></a></li>
+            <li style="padding-bottom:2.5em;"><a href="index.html#about" id="about-link" class="skel-layers-ignoreHref"><span class="icon fa-user">About </span></a></li>
 
-						<li><a href="#fast" id="fast-link" class="skel-layers-ignoreHref"><span class="icon fa-chevron-right">Fast Facts</span></a></li>
-						<li><a href="#process" id="process-link" class="skel-layers-ignoreHref"><span class="icon fa-chevron-right"> The Process</span></a></li>
-						<li><a href="#solution" id="solution-link" class="skel-layers-ignoreHref"><span class="icon fa-chevron-right"> The Solution Overview</span></a></li>
-						<li><a href="#summary" id="summary-link" class="skel-layers-ignoreHref"><span class="icon fa-chevron-right">Summary</span></a></li>
-					</ul>
-				</div>
-			</nav>
+            <li><a href="#fast" id="fast-link" class="skel-layers-ignoreHref"><span class="icon fa-chevron-right">Fast Facts</span></a></li>
+            <li><a href="#process" id="process-link" class="skel-layers-ignoreHref"><span class="icon fa-chevron-right"> The Process</span></a></li>
+            <li><a href="#solution" id="solution-link" class="skel-layers-ignoreHref"><span class="icon fa-chevron-right"> The Solution Overview</span></a></li>
+            <li><a href="#summary" id="summary-link" class="skel-layers-ignoreHref"><span class="icon fa-chevron-right">Summary</span></a></li>
+          </ul>
+        </div>
+      </nav>
 
-		</div>
+    </div>
 
-		<div class="bottom">
+    <div class="bottom">
 
-			<!-- Social Icons -->
-			<ul class="icons">
-				<li><a href="https://www.behance.net/vladimirpo5229" target="_blank" class="icon alt fa-behance"><span class="label">Behance</span></a></li>
-				<li><a href="https://dribbble.com/vpotiyev" target="_blank" class="icon alt fa-dribbble"><span class="label">Dribbble</span></a></li>
-				<li><a href="https://www.instagram.com/emergnc/?hl=en" target="_blank" class="icon alt fa-instagram"><span class="label">Instagram</span></a></li>
-				<li><a href="https://www.linkedin.com/in/vladimirpotiyevskiy" target="_blank" class="icon alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
-				<li><a href="mailto:vladimir.potiyevskiy@gmail.com?Subject=Hello%20Vladimir" target="_blank" class="icon fa-envelope"><span class="label">Email</span></a>
-				</li>
-				<li><a href="Vladimir_Potiyevskiy_Resume.pdf" target="_blank" class="icon fa-graduation-cap"><span class="label">Resume</span></a></li>
-			</ul>
+      <!-- Social Icons -->
+      <ul class="icons">
+        <li><a href="https://www.behance.net/vladimirpo5229" target="_blank" class="icon alt fa-behance"><span class="label">Behance</span></a></li>
+        <li><a href="https://dribbble.com/vpotiyev" target="_blank" class="icon alt fa-dribbble"><span class="label">Dribbble</span></a></li>
+        <li><a href="https://www.instagram.com/emergnc/?hl=en" target="_blank" class="icon alt fa-instagram"><span class="label">Instagram</span></a></li>
+        <li><a href="https://www.linkedin.com/in/vladimirpotiyevskiy" target="_blank" class="icon alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
+        <li><a href="mailto:vladimir.potiyevskiy@gmail.com?Subject=Hello%20Vladimir" target="_blank" class="icon fa-envelope"><span class="label">Email</span></a>
+        </li>
+        <li><a href="Vladimir_Potiyevskiy_Resume.pdf" target="_blank" class="icon fa-graduation-cap"><span class="label">Resume</span></a></li>
+      </ul>
 
-		</div>
+    </div>
 
-	</div>
+  </div>
 
-	<!-- Main -->
-	<div id="main">
+  <!-- Main -->
+  <div id="main">
 
-		<!-- Intro -->
-		<section id="top" class="one dark cover">
-			<div class="container">
+    <!-- Intro -->
+    <section id="top" class="one dark cover">
+      <div class="container">
 
-				<header>
-					<h2><strong>MealSpace<br />
+        <header>
+          <h2><strong>MealSpace<br />
 								</strong></h2>
-					<p>MealSpace combines the best parts of a Maker Space and a home kitchen. It allows students to create their own meals with all the necessary ingredients and materials provided. MealSpace is a new experience to eating out. </p>
-				</header>
+          <p>MealSpace combines the best parts of a Maker Space and a home kitchen. It allows students to create their own meals with all the necessary ingredients and materials provided. MealSpace is a new experience to eating out. </p>
+        </header>
 
-			</div>
-		</section>
+      </div>
+    </section>
 
-		<!-- Fast Facts -->
-		<section id="fast" class="two" href="#fast">
-			<div class="container">
-				<header>
-					<h2>Fast Facts</h2>
-				</header>
+    <!-- Fast Facts -->
+    <section id="fast" class="two" >
+      <div class="container">
+        <header>
+          <h2>Fast Facts</h2>
+        </header>
 
-				<div><span><img style="width:80%;" class="myImg" src="images/src_imgs/mealspace_b.png" alt=""></span>
-				</div>
-				<div class="row">
-					<div class="container">
-					</div>
+        <div><span><img style="width:80%;" class="myImg" src="images/src_imgs/mealspace_b.png" alt=""></span>
+        </div>
+        <div class="row">
+          <div class="container">
+          </div>
 
-					<div class="4u 12u$(mobile)">
+          <div class="4u 12u$(mobile)">
+            <h2>Role:</h2>
+              UX Designer
+            <h2>Project Type:</h2>
 
+              Student Design Competition CHI 2018 submission
 
-						<h2>Role:</h2>
-						<li>
-							UX Designer
-						</li>
+            <h2>Dates:</h2>
+              September 2017 - Janurary 2017
+          </div>
+          <div class="4u 12u$(mobile)">
+            <h2>Tools:</h2>
+            <ul>
 
-						<h2>Project Type:</h2>
-						<li>
-							Student Design Competition CHI 2018 submission
-						</li>
+            <li>Pencil and Paper</li>
+            <li>Dry Erase Marker / White Board</li>
+            <li>Sketch</li>
+            <li>InVision</li>
+            <li>Google Survey Forms </li>
+          </ul>
 
-						<h2>Dates:</h2>
-						<li>
-							September 2017 - Janurary 2017
-						</li>
-					</div>
-					<div class="4u 12u$(mobile)">
-						<h2>Tools:</h2>
+          </div>
+          <div class="4u 12u$(mobile)">
+            <h2>Skills:</h2>
+            <ul>
 
-						<li>Pencil and Paper</li>
-						<li>Dry Erase Marker / White Board</li>
-						<li>Sketch</li>
-						<li>InVision</li>
-						<li>Google Survey Forms </li>
+            <li>Design Methodologies</li>
+            <li>Participatory Design</li>
+            <li>Analytical Research</li>
+            <li>Sketching techniques</li>
+            <li>Wireframing and prototyping</li>
+            <li>Scenarios and storyboarding</li>
+          </ul>
+          </div>
 
-					</div>
-					<div class="4u 12u$(mobile)">
-						<h2>Skills:</h2>
-						<li>Design Methodologies</li>
-						<li>Participatory Design</li>
-						<li>Analytical Research</li>
-						<li>Sketching techniques</li>
-						<li>Wireframing and prototyping</li>
-						<li>Scenarios and storyboarding</li>
+        </div>
 
-					</div>
+      </div>
+    </section>
 
-				</div>
-
-			</div>
-		</section>
-
-		<!-- The Problem -->
-		<section id="problem">
-			<div class="container">
-				<header>
-					<h2>The Problem </h2>
-				</header>
-				<p>Moving to college is a tough transition for students: increased workload, social pressure, and no more home-cooked meals. Of all these factors, students undermine the importance of balanced, healthy meals. While on-campus meal plans aim to provide students with a variety of food choices, a freshman on average can gain weight 5X greater than the general population.
-				</p>
+    <!-- The Problem -->
+    <section id="problem">
+      <div class="container">
+        <header>
+          <h2>The Problem </h2>
+        </header>
+        <p>Moving to college is a tough transition for students: increased workload, social pressure, and no more home-cooked meals. Of all these factors, students undermine the importance of balanced, healthy meals. While on-campus meal plans aim to provide
+          students with a variety of food choices, a freshman on average can gain weight 5X greater than the general population.
+        </p>
 
 
 
-			</div>
-		</section>
-		<!-- Design Process -->
-		<section id="process" class="two">
-			<div class="container">
-				<header>
-					<h2>The Process: Research</h2>
+      </div>
+    </section>
+    <!-- Design Process -->
+    <section id="process" class="two">
+      <div class="container">
+        <header>
+          <h2>The Process: Research</h2>
 
-				</header>
-				<h3>Research and User Interviews </h3>
-				<br>
-				<h3>Paper Surveys</h3>
-				<p>We Recieved <strong>21 college students</strong> that expressed interest and concerns regarding grocery shopping and cooking at home. The biggest finding is that they <strong>high nutrition</strong> and <strong>low cost.</strong></p>
+        </header>
+        <h3>Research and User Interviews </h3>
+        <br>
+        <h3>Paper Surveys</h3>
+        <p>We Recieved <strong>21 college students</strong> that expressed interest and concerns regarding grocery shopping and cooking at home. The biggest finding is that they <strong>high nutrition</strong> and <strong>low cost.</strong></p>
 
-				<h3>User Interviews</h3>
-				<p>During our interviews with two participants that were different from the 21 college students, claimed that cost is a deterrence for using existing solutions such as InstaCart. They Also mentioned their current process for meal planning is a simple
-					ad-hoc method. At the end of the interviews, the participants made it clear that even though they knew nutrition was important, nutrition levels are normally not met.</p>
+        <h3>User Interviews</h3>
+        <p>During our interviews with two participants that were different from the 21 college students, claimed that cost is a deterrence for using existing solutions such as InstaCart. They Also mentioned their current process for meal planning is a simple
+          ad-hoc method. At the end of the interviews, the participants made it clear that even though they knew nutrition was important, nutrition levels are normally not met.</p>
 
-				<h3>Diary Studies</h3>
-				<p>The biggest finding during our diary study was that general mood after eating was improved when the participant either ate with a tv show playing or when eating with a friend. Therefore eating with some company improves the eating experience.</p>
+        <h3>Diary Studies</h3>
+        <p>The biggest finding during our diary study was that general mood after eating was improved when the participant either ate with a tv show playing or when eating with a friend. Therefore eating with some company improves the eating experience.</p>
 
-				<h3>Process Summary</h3>
-				<p> After identifying the different needs that our users have, we used a priority matrix based approach to develop ideas. We wrote different needs of our users along with an axis and assigned them weights based on our research findings; along the other
-					axis, we wrote different ways these solutions can be implemented. After coming up with these ideas, we ranked them and chose <strong>MealSpace</strong> because it tackled the issues of time and nutrition most efficiently. </p>
-				<div class="row">
+        <h3>Process Summary</h3>
+        <p> After identifying the different needs that our users have, we used a priority matrix based approach to develop ideas. We wrote different needs of our users along with an axis and assigned them weights based on our research findings; along the
+          other axis, we wrote different ways these solutions can be implemented. After coming up with these ideas, we ranked them and chose <strong>MealSpace</strong> because it tackled the issues of time and nutrition most efficiently. </p>
+        <div class="row">
 
-					<div class="6u 12u$(mobile)">
-						<img style="width:100%;" class="myImg" src="images/src_imgs/mealspace/solution matrix.png" alt="solution matrix we created to solidfy what direction we were going to go.">
-					</div>
+          <div class="6u 12u$(mobile)">
+            <img style="width:100%;" class="myImg" src="images/src_imgs/mealspace/solution_matrix.png" alt="solution matrix we created to solidfy what direction we were going to go.">
+          </div>
 
-					<div class="6u 12u$(mobile)">
-						<img style="width:100%;" class="myImg" src="images/src_imgs/mealspace/IMG_0858.JPG" alt="Our initial sketches.">
-					</div>
-				</div>
+          <div class="6u 12u$(mobile)">
+            <img style="width:100%;" class="myImg" src="images/src_imgs/mealspace/IMG_0858.JPG" alt="Our initial sketches.">
+          </div>
+        </div>
 
-			</div>
-		</section>
-
-
-		<section id="solution" class="three">
-			<div class="container">
-				<header>
-					<h2>The Solution Overview</h2>
-				</header>
-
-				<p>Mealspace brings people together into a single space in order to create a creative culinary atmosphere that focuses on <strong>nutrition, cost, </strong>and <strong>time</strong>. We source from <strong>local farmers</strong> that grow marvelous vegetables
-					and source the highest and safest meat and dairy products allows us to give back to our community. With the use of freeze and cold storage technology, we’re able to provide local and tasty ingredients all year! The <strong>convenience</strong> of
-					location and <strong>provided materials</strong> makes Mealspace the prime stop to come and create an outstanding meal with friends or meal prep for a student’s busy week. Every meal creation with us supports <strong>student health</strong>,
-					<strong>the local food ecosystem</strong>, and <strong>economy</strong>.
-				</p>
-				<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/9bihxCuzNao?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> <br />
-				<br>
-
-				<div class="row">
-					<div class="4u 12u$(mobile)">
-						<span class="image fit"><strong> Step 1: </strong> Students visit the website and schedule a session.<img class="myImg" src="images/src_imgs/mealspace/step1.png"   alt="" /></span>
-					</div>
-					<div class="4u 12u$(mobile)"><span class="image fit"><strong> Step 2: </strong> Users arrive at designated cook stations and sign in.<img class="myImg" src="images/src_imgs/mealspace/step2.png" alt="" /></span>
-					</div>
-					<div class="4u 12u$(mobile)"><span class="image fit"><strong> Step 3: </strong> Tablet app shows step-by-step instructions.<img class="myImg"  src="images/src_imgs/mealspace/step3.png" alt="" /></span>
-					</div>
-
-				</div>
-			</div>
-
-		</section>
+      </div>
+    </section>
 
 
-		<section class="two">
-			<div class="container">
-				<header>
-					<h2>High Fidelity Prototype</h2>
-				</header>
-				<h3>Website</h3>
-				<li>It allows users to reserve the station they wish to work at. </li>
-				<li>Pick out specific recipes to ensure the ingredients will be available when they get there.</li>
-				<li>It also allows users to invite others to the experience. </li><br />
-				<div class="row">
-					<div class="4u 12u$(mobile)"><span><img style="width:100%" class="myImg" src="images/src_imgs/mealspace/website ss/1.png"   alt="" /></span>
-					</div>
-					<div class="4u 12u$(mobile)"><span><img style="width:100%" class="myImg" src="images/src_imgs/mealspace/website ss/2.png" alt="" /></span>
-					</div>
-					<div class="4u 12u$(mobile)"><span><img style="width:100%" class="myImg" src="images/src_imgs/mealspace/website ss/3.png" alt="" /></span>
-					</div>
-				</div>
-				<div class="row">
-					<div class="4u 12u$(mobile)"><span><img style="width:100%" class="myImg" src="images/src_imgs/mealspace/website ss/4.png" alt=""  /></span>
-					</div>
-					<div class="4u 12u$(mobile)"><span><img style="width:100%" class="myImg" src="images/src_imgs/mealspace/website ss/5.png" alt="" /></span>
-					</div>
-					<div class="4u 12u$(mobile)"><span><img style="width:100%" class="myImg"  src="images/src_imgs/mealspace/website ss/6.png" alt="" /></span>
-					</div>
-				</div>
+    <section id="solution" class="three">
+      <div class="container">
+        <header>
+          <h2>The Solution Overview</h2>
+        </header>
 
-				<br>
+        <p>Mealspace brings people together into a single space in order to create a creative culinary atmosphere that focuses on <strong>nutrition, cost, </strong>and <strong>time</strong>. We source from <strong>local farmers</strong> that grow marvelous
+          vegetables and source the highest and safest meat and dairy products allows us to give back to our community. With the use of freeze and cold storage technology, we’re able to provide local and tasty ingredients all year! The <strong>convenience</strong>          of location and <strong>provided materials</strong> makes Mealspace the prime stop to come and create an outstanding meal with friends or meal prep for a student’s busy week. Every meal creation with us supports <strong>student health</strong>,
+          <strong>the local food ecosystem</strong>, and <strong>economy</strong>.
+        </p>
+        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/9bihxCuzNao?rel=0" allowfullscreen></iframe> <br />
+        <br>
 
-				<h3>Tablet</h3>
-				<ol>
-					<li>Password protected</li>
-					<li>Shows the required materials and ingredients needed prior to cooking. </li>
-					<li>Detailed instructions on how to prepare the recipe. </li>
-					<li> Sends the recipe to you so you can cook it yourself later.</li>
-				</ol>
-				<br>
-				<h2><a href="https://invis.io/KYF25HG6W" target="_blank">Link to prototype</a></h2>
-				<br>
+        <div class="row">
+          <div class="4u 12u$(mobile)">
+            <span class="image fit"><strong> Step 1: </strong> Students visit the website and schedule a session.<img class="myImg" src="images/src_imgs/mealspace/step1.png"   alt="" /></span>
+          </div>
+          <div class="4u 12u$(mobile)"><span class="image fit"><strong> Step 2: </strong> Users arrive at designated cook stations and sign in.<img class="myImg" src="images/src_imgs/mealspace/step2.png" alt="" /></span>
+          </div>
+          <div class="4u 12u$(mobile)"><span class="image fit"><strong> Step 3: </strong> Tablet app shows step-by-step instructions.<img class="myImg"  src="images/src_imgs/mealspace/step3.png" alt="" /></span>
+          </div>
 
-			</div>
-		</section>
+        </div>
+      </div>
+
+    </section>
 
 
-		<section id="summary">
-			<div class="container">
-				<header>
-					<h2>Summary and Reflection</h2>
-				</header>
+    <section class="two">
+      <div class="container">
+        <header>
+          <h2>High Fidelity Prototype</h2>
+        </header>
+        <h3>Website</h3>
+        <ul>
+        <li>It allows users to reserve the station they wish to work at. </li>
+        <li>Pick out specific recipes to ensure the ingredients will be available when they get there.</li>
+        <li>It also allows users to invite others to the experience. </li>
+      </ul>
+<br />
+        <div class="row">
+          <div class="4u 12u$(mobile)"><span><img style="width:100%" class="myImg" src="images/src_imgs/mealspace/website_ss/1.png"   alt="" /></span>
+          </div>
+          <div class="4u 12u$(mobile)"><span><img style="width:100%" class="myImg" src="images/src_imgs/mealspace/website_ss/2.png" alt="" /></span>
+          </div>
+          <div class="4u 12u$(mobile)"><span><img style="width:100%" class="myImg" src="images/src_imgs/mealspace/website_ss/3.png" alt="" /></span>
+          </div>
+        </div>
+        <div class="row">
+          <div class="4u 12u$(mobile)"><span><img style="width:100%" class="myImg" src="images/src_imgs/mealspace/website_ss/4.png" alt=""  /></span>
+          </div>
+          <div class="4u 12u$(mobile)"><span><img style="width:100%" class="myImg" src="images/src_imgs/mealspace/website_ss/5.png" alt="" /></span>
+          </div>
+          <div class="4u 12u$(mobile)"><span><img style="width:100%" class="myImg"  src="images/src_imgs/mealspace/website_ss/6.png" alt="" /></span>
+          </div>
+        </div>
 
-				<p>Given that nutrition is a concern among students and evidence shows that weight gain is an issue, Mealspace provides an easy yet efficient way to cook nutritious meals with an opportunity to collaborate with fellow college students and learn about cooking. MealSpace offers a physical space for students to get together and share an enjoyable, healthy experience. With MealSpace, eating health is no longer a dread, but a social engagement to look forward to.</p>
+        <br>
 
-				<div class="container">
-					<div><span><img style="width:75%;" class="myImg" src="images/src_imgs/mealspace/group_pic.jpg" alt=""></span>
-					</div>
-				</div>
-			</div>
-		</section>
+        <h3>Tablet</h3>
+        <ol>
+          <li>Password protected</li>
+          <li>Shows the required materials and ingredients needed prior to cooking. </li>
+          <li>Detailed instructions on how to prepare the recipe. </li>
+          <li> Sends the recipe to you so you can cook it yourself later.</li>
+        </ol>
+        <br>
+        <h2><a href="https://invis.io/KYF25HG6W" target="_blank">Link to prototype</a></h2>
+        <br>
 
-		<div id="myModal" class="modal">
+      </div>
+    </section>
 
-			<!-- The Close Button -->
-			<span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
 
-			<!-- Modal Content (The Image) -->
-			<img class="modal-content" id="img01" alt="">
+    <section id="summary">
+      <div class="container">
+        <header>
+          <h2>Summary and Reflection</h2>
+        </header>
 
-			<!-- Modal Caption (Image Text) -->
-			<div id="caption"></div>
-		</div>
+        <p>Given that nutrition is a concern among students and evidence shows that weight gain is an issue, Mealspace provides an easy yet efficient way to cook nutritious meals with an opportunity to collaborate with fellow college students and learn about
+          cooking. MealSpace offers a physical space for students to get together and share an enjoyable, healthy experience. With MealSpace, eating health is no longer a dread, but a social engagement to look forward to.</p>
 
-	</div>
+        <div class="container">
+          <div><span><img style="width:75%;" class="myImg" src="images/src_imgs/mealspace/group_pic.jpg" alt=""></span>
+          </div>
+        </div>
+      </div>
+    </section>
 
-	<!-- Footer -->
-	<div id="footer">
+    <div id="myModal" class="modal">
 
-		<!-- Copyright -->
-		<ul class="copyright">
-			<li>&copy; Created by Vladimir Potiyevskiy.</li>
-			<li>Thanks to <a href="https://twitter.com/ajlkn">@ajlkn</a></li>
-		</ul>
+      <!-- The Close Button -->
+      <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
 
-	</div>
+      <!-- Modal Content (The Image) -->
+      <img class="modal-content hidden" id="img01" src="_blank" alt="">
 
-	<!-- Scripts -->
-	<script src="assets/js/jquery.min.js"></script>
-	<script src="assets/js/jquery.scrolly.min.js"></script>
-	<script src="assets/js/jquery.scrollzer.min.js"></script>
-	<script src="assets/js/skel.min.js"></script>
-	<script src="assets/js/util.js"></script>
-	<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-	<script src="assets/js/main.js"></script>
+      <!-- Modal Caption (Image Text) -->
+      <div id="caption"></div>
+    </div>
+
+  </div>
+
+  <!-- Footer -->
+  <div id="footer">
+
+    <!-- Copyright -->
+    <ul class="copyright">
+      <li>&copy; Created by Vladimir Potiyevskiy.</li>
+      <li>Thanks to <a href="https://twitter.com/ajlkn">@ajlkn</a></li>
+    </ul>
+
+  </div>
+
+  <!-- Scripts -->
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/jquery.scrolly.min.js"></script>
+  <script src="assets/js/jquery.scrollzer.min.js"></script>
+  <script src="assets/js/skel.min.js"></script>
+  <script src="assets/js/util.js"></script>
+  <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+  <script src="assets/js/main.js"></script>
 
 </body>
 

@@ -16,62 +16,62 @@ Credits to some icons from www.flaticon.com.
   <link rel="stylesheet" href="assets/css/main.css">
   <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
   <!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-	<script>
-		(function(i, s, o, g, r, a, m) {
-			i['GoogleAnalyticsObject'] = r;
-			i[r] = i[r] || function() {
-				(i[r].q = i[r].q || []).push(arguments)
-			}, i[r].l = 1 * new Date();
-			a = s.createElement(o),
-				m = s.getElementsByTagName(o)[0];
-			a.async = 1;
-			a.src = g;
-			m.parentNode.insertBefore(a, m)
-		})(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
-		ga('create', 'UA-106395783-1', 'auto');
-		ga('send', 'pageview');
-	</script>
-	<script>
-		/* When the user clicks on the button,
-								toggle between hiding and showing the dropdown content */
-		function myFunction() {
-			document.getElementById("myDropdown").classList.toggle("show");
-		}
+  <script>
+    (function(i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r;
+      i[r] = i[r] || function() {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date();
+      a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0];
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+    ga('create', 'UA-106395783-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+  <script>
+    /* When the user clicks on the button,
+    								toggle between hiding and showing the dropdown content */
+    function myFunction() {
+      document.getElementById("myDropdown").classList.toggle("show");
+    }
 
-		// Close the dropdown menu if the user clicks outside of it
-		window.onclick = function(event) {
-			if (!event.target.matches('.dropbtn')) {
+    // Close the dropdown menu if the user clicks outside of it
+    window.onclick = function(event) {
+      if (!event.target.matches('.dropbtn')) {
 
-				var dropdowns = document.getElementsByClassName("dropdown-content");
-				var i;
-				for (i = 0; i < dropdowns.length; i++) {
-					var openDropdown = dropdowns[i];
-					if (openDropdown.classList.contains('show')) {
-						openDropdown.classList.remove('show');
-					}
-				}
-			}
-		}
-	</script>
+        var dropdowns = document.getElementsByClassName("dropdown-content");
+        var i;
+        for (i = 0; i < dropdowns.length; i++) {
+          var openDropdown = dropdowns[i];
+          if (openDropdown.classList.contains('show')) {
+            openDropdown.classList.remove('show');
+          }
+        }
+      }
+    }
+  </script>
 </head>
 
 <body>
 
-	<!-- Header -->
-	<div id="header">
+  <!-- Header -->
+  <div id="header">
 
-		<div class="top">
+    <div class="top">
 
-			<!-- Logo -->
-			<div id="logo">
-				<span class="image avatar48"><img src="images/prf_icon.png" alt="" /></span>
-				<a href="index.html"><h1 id="title"  style="font-size: 16px">Vladimir Potiyevskiy</h1></a>
-				<p>UX Designer</p>
-			</div>
+      <!-- Logo -->
+      <div id="logo">
+        <a href="index.html" class="image avatar48"><img src="images/prf_icon.png" alt="profile icon of Vlad" /></a>
+        <a href="index.html"><h1 id="title"  style="font-size: 16px">Vladimir Potiyevskiy</h1></a>
+        <p>UX Designer</p>
+      </div>
 
-			<!-- Nav -->
-			<nav id="nav">
-				<!--
+      <!-- Nav -->
+      <nav id="nav">
+        <!--
 								Prologue's nav expects links in one of two formats:
 
 								1. Hash link (scrolls to a different section within the page)
@@ -82,309 +82,312 @@ Credits to some icons from www.flaticon.com.
 
 									 <li><a href="http://foobar.tld" id="foobar-link" class="icon fa-whatever-icon-you-want"><span class="label">Foobar</span></a></li>
 							-->
-				<div class="dropdown">
-					<ul>
-						<li><a href="index.html" id="top-link" class="skel-layers-ignoreHref"><span class="icon fa-home">Home</span></a></li>
-						<li onclick="myFunction()">
-							<a class="dropbtn" href="#" id="portfolio-link"> <span class="icon fa-th"> Portfolio <i id="actv" class="icon fa-angle-down"></i></span></a>
-						</li>
-						<li id="myDropdown" class="dropdown-content">
-							<a href="quickup.html">Quick-Up</a>
-							<a class="actv" href="plateforward.html">PlateForward</a>
-							<a href="mealspace.html">MealSpace</a>
-							<a href="ydcv.html">YDCV Consulting</a>
-							<a href="precipistation.html">Precipi-Station</a>
-							<a href="eoh.html">Engineering Open House</a>
-						</li>
-						<li><a href="index.html#processz" id="processz-link" class="skel-layers-ignoreHref"><span class="icon fa-repeat">My Design Process</span></a></li>
-						<li style="padding-bottom:2.5em;"><a href="index.html#about" id="about-link" class="skel-layers-ignoreHref"><span class="icon fa-user">About </span></a></li>
+        <div class="dropdown">
+          <ul>
+            <li><a href="index.html" id="top-link" class="skel-layers-ignoreHref"><span class="icon fa-home">Home</span></a></li>
+            <li onclick="myFunction()">
+              <a class="dropbtn" href="#" id="portfolio-link"> <span class="icon fa-th"> Portfolio <i id="actv" class="icon fa-angle-down"></i></span></a>
+            </li>
+            <li id="myDropdown" class="dropdown-content">
+              <a href="quickup.html">Quick-Up</a>
+              <a class="actv" href="plateforward.html">PlateForward</a>
+              <a href="mealspace.html">MealSpace</a>
+              <a href="ydcv.html">YDCV Consulting</a>
+              <a href="precipistation.html">Precipi-Station</a>
+              <a href="eoh.html">Engineering Open House</a>
+            </li>
+            <li><a href="index.html#processz" id="processz-link" class="skel-layers-ignoreHref"><span class="icon fa-repeat">My Design Process</span></a></li>
+            <li style="padding-bottom:2.5em;"><a href="index.html#about" id="about-link" class="skel-layers-ignoreHref"><span class="icon fa-user">About </span></a></li>
 
-						<li><a href="#fast" id="fast-link" class="skel-layers-ignoreHref"><span class="icon fa-chevron-right">Fast Facts</span></a></li>
-						<li><a href="#problem" id="problem-link" class="skel-layers-ignoreHref"><span class="icon fa-chevron-right"> The Situation</span></a></li>
-						<li><a href="#process" id="process-link" class="skel-layers-ignoreHref"><span class="icon fa-chevron-right">The Process</span></a></li>
-						<li><a href="#sketches" id="sketches-link" class="skel-layers-ignoreHref"><span class="icon fa-chevron-right">Sketches and Prototype</span></a></li>
-						<li><a href="#summary" id="summary-link" class="skel-layers-ignoreHref"><span class="icon fa-chevron-right">Summary and Reflection</span></a></li>
+            <li><a href="#fast" id="fast-link" class="skel-layers-ignoreHref"><span class="icon fa-chevron-right">Fast Facts</span></a></li>
+            <li><a href="#problem" id="problem-link" class="skel-layers-ignoreHref"><span class="icon fa-chevron-right"> The Situation</span></a></li>
+            <li><a href="#process" id="process-link" class="skel-layers-ignoreHref"><span class="icon fa-chevron-right">The Process</span></a></li>
+            <li><a href="#sketches" id="sketches-link" class="skel-layers-ignoreHref"><span class="icon fa-chevron-right">Sketches and Prototype</span></a></li>
+            <li><a href="#summary" id="summary-link" class="skel-layers-ignoreHref"><span class="icon fa-chevron-right">Summary and Reflection</span></a></li>
 
-					</ul>
-				</div>
-			</nav>
+          </ul>
+        </div>
+      </nav>
 
-		</div>
+    </div>
 
-		<div class="bottom">
+    <div class="bottom">
 
-			<!-- Social Icons -->
+      <!-- Social Icons -->
 
-			<ul class="icons">
-				<li><a href="https://www.behance.net/vladimirpo5229" target="_blank" class="icon alt fa-behance"><span class="label">Behance</span></a></li>
-				<li><a href="https://dribbble.com/vpotiyev" target="_blank" class="icon alt fa-dribbble"><span class="label">Dribbble</span></a></li>
-				<li><a href="https://www.instagram.com/emergnc/?hl=en" target="_blank" class="icon alt fa-instagram"><span class="label">Instagram</span></a></li>
-				<li><a href="https://www.linkedin.com/in/vladimirpotiyevskiy" target="_blank" class="icon alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
-				<li><a href="mailto:vladimir.potiyevskiy@gmail.com?Subject=Hello%20Vladimir" target="_blank" class="icon fa-envelope"><span class="label">Email</span></a>
-				</li>
-				<li><a href="Vladimir_Potiyevskiy_Resume.pdf" target="_blank" class="icon fa-graduation-cap"><span class="label">Resume</span></a></li>
-			</ul>
-		</div>
+      <ul class="icons">
+        <li><a href="https://www.behance.net/vladimirpo5229" target="_blank" class="icon alt fa-behance"><span class="label">Behance</span></a></li>
+        <li><a href="https://dribbble.com/vpotiyev" target="_blank" class="icon alt fa-dribbble"><span class="label">Dribbble</span></a></li>
+        <li><a href="https://www.instagram.com/emergnc/?hl=en" target="_blank" class="icon alt fa-instagram"><span class="label">Instagram</span></a></li>
+        <li><a href="https://www.linkedin.com/in/vladimirpotiyevskiy" target="_blank" class="icon alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
+        <li><a href="mailto:vladimir.potiyevskiy@gmail.com?Subject=Hello%20Vladimir" target="_blank" class="icon fa-envelope"><span class="label">Email</span></a>
+        </li>
+        <li><a href="Vladimir_Potiyevskiy_Resume.pdf" target="_blank" class="icon fa-graduation-cap"><span class="label">Resume</span></a></li>
+      </ul>
+    </div>
+  </div>
 
-	</div>
 
-	</div>
+  <!-- Main -->
+  <div id="main">
 
-	<!-- Main -->
-	<div id="main">
-
-		<!-- Intro -->
-		<section id="top" class="one dark cover">
-			<div class="container">
-				<header>
-					<h2 class="alt"><strong>Plate Forward<br />
+    <!-- Intro -->
+    <section id="top" class="one dark cover">
+      <div class="container">
+        <header>
+          <h2 class="alt"><strong>Plate Forward<br />
 								</strong></h2>
-					<p>This was a project my team and I worked on with Top Box Foods as part of a volunteer week. The project started with just an idea but ended with a functioning website. </p>
-				</header>
-			</div>
-		</section>
+          <p>This was a project my team and I worked on with Top Box Foods as part of a volunteer week. The project started with just an idea but ended with a functioning website. </p>
+        </header>
+      </div>
+    </section>
 
-		<!-- Fast Facts -->
-		<section id="fast" class="two">
+    <!-- Fast Facts -->
+    <section id="fast" class="two">
 
-			<div class="container">
+      <div class="container">
 
-				<header>
-					<h2>Fast Facts</h2>
-				</header>
+        <header>
+          <h2>Fast Facts</h2>
+        </header>
 
-				<h3><a href="https://jonathan-wittig.squarespace.com/?r=87332834" target="_blank">Link to Interactive Prototype</a></h3><br>
-				<img style="width:80%;" class="myImg" src="images/src_imgs/plateforward/plate forward sample.png" alt="This screenshot shows the impact of using PlateForward. ">
-				<br />
-				<div class='row'>
+        <h3><a href="https://jonathan-wittig.squarespace.com/?r=87332834" target="_blank">Link to Interactive Prototype</a></h3><br>
+        <img style="width:80%;" class="myImg" src="images/src_imgs/plateforward/plate_forward_sample.png" alt="Plateforward sample on laptop ">
+        <br />
+        <div class='row'>
 
-					<div class="4u 12u$(mobile)">
-						<h2>My Role:</h2>
-						<li>
-							UX Designer
-						</li>
-						<h2>Group Size:</h2>
-						<li>
-							4 Designers
-						</li>
-						<h2>Time Length:</h2>
-						<li>
-							40 hours
-						</li>
-					</div>
+          <div class="4u 12u$(mobile)">
+            <h2>My Role:</h2>
+              UX Designer
 
-					<div class="4u 12u$(mobile)">
-						<h2>Tools:</h2>
-						<li>
-							Pencil and Paper
-						</li>
-						<li>
-							SquareSpace
-						</li>
-						<li>
-							Photoshop
-						</li>
-						<li>
-							Google Docs
-						</li>
-					</div>
+            <h2>Group Size:</h2>
 
-					<div class="4u 12u$(mobile)">
-						<h2>Skills:</h2>
-						<li>
-							Google Sprint Methodologies
-						</li>
-						<li>
-							Hallway User-Testing
-						</li>
-						<li>
-							Wireframing and prototyping
-						</li>
-						<li>
-							Defending and Justifying Designs
-						</li>
-					</div>
-				</div>
+              4 Designers
 
-			</div>
-		</section>
+            <h2>Time Length:</h2>
+              40 hours
+          </div>
 
-		<!-- The Problem -->
-		<section id="problem" class="two">
-			<div class="container">
-				<header>
-					<h2>The Situation</h2>
-				</header>
-				<p>My team and I partnered with <a href="https://www.topboxfoods.com/" target="_blank">Top Box Foods</a>, a nonprofit organization in Chicago who provides subsidized food to low-income areas in Chicago. We were tasked to create a new website for a new
-					called <strong>Plate Forward</strong>. It was a new project they are launching to supplement Top Box Foods. We had 40 hours to complete the project and hand off.</p>
+          <div class="4u 12u$(mobile)">
+            <h2>Tools:</h2>
+            <ul>
 
 
-				<h2>Persona</h2>
-				<p>
-					Due to time contraints, we centered our designs on a single persona, Steve from the suburbs.
-				</p>
+            <li>
+              Pencil and Paper
+            </li>
+            <li>
+              SquareSpace
+            </li>
+            <li>
+              Photoshop
+            </li>
+            <li>
+              Google Docs
+            </li>
+                </ul>
+          </div>
 
-				<div>
-					<h3><img src="images/src_imgs/avatar_profiles/steve.png" alt="" style="width:20%;" /> <br>Suburban Steve:</h3>
-					<nl>
-						<li>Shops for his family every two weeks by focusing on fresh, healthy and local produce.</li><br />
-						<li>Steve likes to shop at grocery stores like Whole Foods, Trader Joes and Mariano's.</li><br />
-						<li>Steve strongly believes in contributing to his community in every way possible.</li><br />
-						<li>Steve also likes to learn about where his food comes from, so he tries to buy produce that indicates that.</li>
-					</nl>
-				</div>
-			</div>
-		</section>
-		<!-- Design Process -->
-		<section id="process" class="three">
-			<div class="container">
-				<header>
-					<h2>The Process</h2>
-				</header>
-				<p>
-					At the beginning of the week, we thought it would be best to follow a process like Google's 5-day sprint to achieve as much as we could alongside a deliverable we could present to our client.</p>
-				<img style="width:80%;" class="myImg" src="images/src_imgs/plateforward/5daysprint.png" alt="This image shows the 5 day sprint.">
-			</div>
-		</section>
+          <div class="4u 12u$(mobile)">
+            <h2>Skills:</h2>
+            <ul>
 
-		<!--Sketches -->
-		<section id="sketches" class="four">
-			<h2>Our Sketches</h2>
-			<p>After we organized and discussed what we want the website to contain, we all began to individually sketch our ideas. After some time, we discussed each of our sketches, we combined them by drawing them. Those can be seen below. </p>
-			<div class="container">
-				<div class="row">
-					<div class="4u 12u$(mobile)">
-						<img style="width:100%;" class="myImg" src="images/src_imgs/plateforward/sketch1.jpg" alt="This screenshot shows the main page of the website ">
-						<img style="width:100%;" class="myImg" src="images/src_imgs/plateforward/sketch5.jpg" alt="This screenshot shows the main page of the website ">
-					</div>
-					<div class="4u 12u$(mobile)">
-						<img style="width:100%;" class="myImg" src="images/src_imgs/plateforward/sketch3.jpg" alt="This screenshot shows the main page of the website ">
-						<img style="width:100%;" class="myImg" src="images/src_imgs/plateforward/sketch6.jpg" alt="This screenshot shows the main page of the website ">
-					</div>
-					<div class="4u 12u$(mobile)">
-						<img style="width:100%;" class="myImg" src="images/src_imgs/plateforward/sketch2.jpg" alt="This screenshot shows the main page of the website ">
-						<img style="width:100%;" class="myImg" src="images/src_imgs/plateforward/sketch4.jpg" alt="This screenshot shows the main page of the website ">
-					</div>
-				</div>
-			</div>
-		</section>
+            <li>
+              Google Sprint Methodologies
+            </li>
+            <li>
+              Hallway User-Testing
+            </li>
+            <li>
+              Wireframing and prototyping
+            </li>
+            <li>
+              Defending and Justifying Designs
+            </li>
+          </ul>
 
-		<!-- Prototype -->
-		<section id="prototype">
-			<header>
-				<h2>Prototype</h2>
-			</header>
-			<iframe src="https://drive.google.com/file/d/1x5d8HM5CMHJUEPXgC164KBtY1KMfNmyO/preview" width="65%" height="500" allowfullscreen></iframe>
-			<br>
-			<h3><a href="https://jonathan-wittig.squarespace.com/?r=87332834" target="_blank"> Link to Interactive Prototype</a></h3><br>
-		</section>
-		<!-- What I did -->
-		<section class=three>
-			<header>
-				<h2>What I did</h2>
-			</header>
-			<p>
-				Throughout the whole process, I wanted to keep the three pillars of thought in my designs. Keep it <strong>healthy</strong>, <strong>locally sourced</strong>, and <strong>support local communities</strong>.
-			</p>
-			<div class="container">
-				<div class="row">
-					<div class="12u$(mobile)">
-						<img style="width:100%" class="myImg" src="images/src_imgs/plateforward/why1.png" alt="This screenshot shows the main page of the website ">
-						<img style="width:100%" class="myImg" src="images/src_imgs/plateforward/why2.png" alt="This screenshot shows the main page of the website ">
-						<img style="width:100%;" class="myImg" src="images/src_imgs/plateforward/why3.png" alt="This screenshot shows the main page of the website ">
-						<img style="width:100%;" class="myImg" src="images/src_imgs/plateforward/why4.png" alt="This screenshot shows the main page of the website ">
-						<img style="width:100%;" class="myImg" src="images/src_imgs/plateforward/why5.png" alt="This screenshot shows the main page of the website ">
-					</div>
-				</div>
-			</div>
+          </div>
+        </div>
 
-		</section>
+      </div>
+    </section>
 
-		<section id="summary" class="four">
-			<div class="container">
-				<header>
-					<h2>Summary</h2>
-				</header>
-				<p>
-					It all began with just an idea, by following Google's 5-day sprint model, our team delivered a functional and sustainable website. </p>
-				<div class="column">
-					<div class="col-md-4">
-						<h3>1. Ideate and Information Architecture </h3>
-						<p>First, we formulated the general information Architecture for the website. We then received feedback from our client to see if it aligned with what they had envisioned.</p>
-					</div>
-					<div class="col-md-4">
-						<h3>2. Sketch</h3>
-						<p>We then moved to sketches. We generated sketches both individually and as a team and then recieved feedback from our client again.</p>
-					</div>
-					<div class="col-md-4">
-						<h3>3. Prototype</h3>
-						<p> This led us to split up our tasks and implement the sketches using the website creation tool, Squarespace. </p>
-					</div>
-					<div class="col-md-4">
-						<h3>4. Test</h3>
-						<p> After we finalized our Squarespace prototype, we spent the whole day conducting usability tests with 9 potential users.</p>
-					</div>
-					<div class="col-md-4">
-						<h3>5. Iterate and Document</h3>
-						<p> Finally, on the last day, we revised our prototype based on the tests and documented all the work we've done in preparation for handoff.</p>
-					</div>
-
-				</div>
-			</div>
-
-			<header>
-				<h2>Reflection</h2>
-			</header>
-			<div class="container">
-				<h3>Why SquareSpace?</h3>
-				<p>The reality is, we were there for only a week, we had hoped to do it all but we would ultimately have to leave, we wanted to have a positive impact on our client. The reason we chose Squarespace because it allowed us to deploy our designs quickly
-					while at the same time giving something back to the client that they can actually use without outsourcing development. In the past, they would use volunteer services to deploy website changes for their Top Box Foods website which sometimes takes
-					7+ days for turnaround. </p>
-
-				<h3>Lessons Learned</h3>
-				<p>Overall this was a positive experience and I had learned a lot about utilizing the Sprint method to get a lot done in a short span. One shortcoming we faced was to do with User Testing. We had asked our client on Tuesday to see if they could recruit
-					users in our target population to test our designs on Thursday. Due to the last minute available, most of the users we tested were either friends, family or other colleagues of our client, therefore, caused a bias in our testing. This was an issues
-					my team and I were okay with accepting. In future iterations of the Sprint, it would be key to secure user tests prior to starting the sprint.</p>
-
-			</div>
+    <!-- The Problem -->
+    <section id="problem" class="two">
+      <div class="container">
+        <header>
+          <h2>The Situation</h2>
+        </header>
+        <p>My team and I partnered with <a href="https://www.topboxfoods.com/" target="_blank">Top Box Foods</a>, a nonprofit organization in Chicago who provides subsidized food to low-income areas in Chicago. We were tasked to create a new website for
+          a new called <strong>Plate Forward</strong>. It was a new project they are launching to supplement Top Box Foods. We had 40 hours to complete the project and hand off.</p>
 
 
+        <h2>Persona</h2>
+        <p>
+          Due to time contraints, we centered our designs on a single persona, Steve from the suburbs.
+        </p>
 
-		</section>
+        <div>
+          <h3><img src="images/src_imgs/avatar_profiles/steve.png" alt="" style="width:20%;" /> <br>Suburban Steve:</h3>
+          <ul class="personaList">
+            <li>Shops for his family every two weeks by focusing on fresh, healthy and local produce.</li>
+            <li>Steve likes to shop at grocery stores like Whole Foods, Trader Joes and Mariano's.</li>
+            <li>Steve strongly believes in contributing to his community in every way possible.</li>
+            <li>Steve also likes to learn about where his food comes from, so he tries to buy produce that indicates that.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!-- Design Process -->
+    <section id="process" class="three">
+      <div class="container">
+        <header>
+          <h2>The Process</h2>
+        </header>
+        <p>
+          At the beginning of the week, we thought it would be best to follow a process like Google's 5-day sprint to achieve as much as we could alongside a deliverable we could present to our client.</p>
+        <img style="width:80%;" class="myImg" src="images/src_imgs/plateforward/5daysprint.png" alt="This image shows the 5 day sprint.">
+      </div>
+    </section>
 
-		<div id="myModal" class="modal">
+    <!--Sketches -->
+    <section id="sketches" class="four">
+      <h2>Our Sketches</h2>
+      <p>After we organized and discussed what we want the website to contain, we all began to individually sketch our ideas. After some time, we discussed each of our sketches, we combined them by drawing them. Those can be seen below. </p>
+      <div class="container">
+        <div class="row">
+          <div class="4u 12u$(mobile)">
+            <img style="width:100%;" class="myImg" src="images/src_imgs/plateforward/sketch1.jpg" alt="This screenshot shows the main page of the website ">
+            <img style="width:100%;" class="myImg" src="images/src_imgs/plateforward/sketch5.jpg" alt="This screenshot shows the main page of the website ">
+          </div>
+          <div class="4u 12u$(mobile)">
+            <img style="width:100%;" class="myImg" src="images/src_imgs/plateforward/sketch3.jpg" alt="This screenshot shows the main page of the website ">
+            <img style="width:100%;" class="myImg" src="images/src_imgs/plateforward/sketch6.jpg" alt="This screenshot shows the main page of the website ">
+          </div>
+          <div class="4u 12u$(mobile)">
+            <img style="width:100%;" class="myImg" src="images/src_imgs/plateforward/sketch2.jpg" alt="This screenshot shows the main page of the website ">
+            <img style="width:100%;" class="myImg" src="images/src_imgs/plateforward/sketch4.jpg" alt="This screenshot shows the main page of the website ">
+          </div>
+        </div>
+      </div>
+    </section>
 
-			<!-- The Close Button -->
-			<span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+    <!-- Prototype -->
+    <section id="prototype">
+      <header>
+        <h2>Prototype</h2>
+      </header>
+      <iframe src="https://drive.google.com/file/d/1x5d8HM5CMHJUEPXgC164KBtY1KMfNmyO/preview" style="width:67%;" height="500" allowfullscreen></iframe>
+      <br>
+      <h3><a href="https://jonathan-wittig.squarespace.com/?r=87332834" target="_blank"> Link to Interactive Prototype</a></h3><br>
+    </section>
+    <!-- What I did -->
+    <section class=three>
+      <header>
+        <h2>What I did</h2>
+      </header>
+      <p>
+        Throughout the whole process, I wanted to keep the three pillars of thought in my designs. Keep it <strong>healthy</strong>, <strong>locally sourced</strong>, and <strong>support local communities</strong>.
+      </p>
+      <div class="container">
+        <div class="row">
+          <div class="12u$(mobile)">
+            <img style="width:100%" class="myImg" src="images/src_imgs/plateforward/why1.png" alt="This screenshot shows the main page of the website ">
+            <img style="width:100%" class="myImg" src="images/src_imgs/plateforward/why2.png" alt="This screenshot shows the main page of the website ">
+            <img style="width:100%;" class="myImg" src="images/src_imgs/plateforward/why3.png" alt="This screenshot shows the main page of the website ">
+            <img style="width:100%;" class="myImg" src="images/src_imgs/plateforward/why4.png" alt="This screenshot shows the main page of the website ">
+            <img style="width:100%;" class="myImg" src="images/src_imgs/plateforward/why5.png" alt="This screenshot shows the main page of the website ">
+          </div>
+        </div>
+      </div>
 
-			<!-- Modal Content (The Image) -->
-			<img class="modal-content" id="img01" alt="">
+    </section>
 
-			<!-- Modal Caption (Image Text) -->
-			<div id="caption"></div>
-		</div>
-	</div>
-	</div>
+    <section id="summary" class="four">
+      <div class="container">
+        <header>
+          <h2>Summary</h2>
+        </header>
+        <p>
+          It all began with just an idea, by following Google's 5-day sprint model, our team delivered a functional and sustainable website. </p>
+        <div class="column">
+          <div class="col-md-4">
+            <h3>1. Ideate and Information Architecture </h3>
+            <p>First, we formulated the general information Architecture for the website. We then received feedback from our client to see if it aligned with what they had envisioned.</p>
+          </div>
+          <div class="col-md-4">
+            <h3>2. Sketch</h3>
+            <p>We then moved to sketches. We generated sketches both individually and as a team and then recieved feedback from our client again.</p>
+          </div>
+          <div class="col-md-4">
+            <h3>3. Prototype</h3>
+            <p> This led us to split up our tasks and implement the sketches using the website creation tool, Squarespace. </p>
+          </div>
+          <div class="col-md-4">
+            <h3>4. Test</h3>
+            <p> After we finalized our Squarespace prototype, we spent the whole day conducting usability tests with 9 potential users.</p>
+          </div>
+          <div class="col-md-4">
+            <h3>5. Iterate and Document</h3>
+            <p> Finally, on the last day, we revised our prototype based on the tests and documented all the work we've done in preparation for handoff.</p>
+          </div>
 
-	<!-- Footer -->
-	<div id="footer">
+        </div>
+      </div>
 
-		<!-- Copyright -->
-		<ul class="copyright">
-			<li>&copy; Created by Vladimir Potiyevskiy.</li>
-			<li>Thanks to <a href="https://twitter.com/ajlkn">@ajlkn</a></li>
-		</ul>
+      <header>
+        <h2>Reflection</h2>
+      </header>
+      <div class="container">
+        <h3>Why SquareSpace?</h3>
+        <p>The reality is, we were there for only a week, we had hoped to do it all but we would ultimately have to leave, we wanted to have a positive impact on our client. The reason we chose Squarespace because it allowed us to deploy our designs quickly
+          while at the same time giving something back to the client that they can actually use without outsourcing development. In the past, they would use volunteer services to deploy website changes for their Top Box Foods website which sometimes takes
+          7+ days for turnaround. </p>
 
-	</div>
+        <h3>Lessons Learned</h3>
+        <p>Overall this was a positive experience and I had learned a lot about utilizing the Sprint method to get a lot done in a short span. One shortcoming we faced was to do with User Testing. We had asked our client on Tuesday to see if they could recruit
+          users in our target population to test our designs on Thursday. Due to the last minute available, most of the users we tested were either friends, family or other colleagues of our client, therefore, caused a bias in our testing. This was an
+          issues my team and I were okay with accepting. In future iterations of the Sprint, it would be key to secure user tests prior to starting the sprint.</p>
 
-	<!-- Scripts -->
-	<script src="assets/js/jquery.min.js"></script>
-	<script src="assets/js/jquery.scrolly.min.js"></script>
-	<script src="assets/js/jquery.scrollzer.min.js"></script>
-	<script src="assets/js/skel.min.js"></script>
-	<script src="assets/js/util.js"></script>
-	<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-	<script src="assets/js/main.js"></script>
+      </div>
+
+
+
+    </section>
+
+    <div id="myModal" class="modal">
+
+      <!-- The Close Button -->
+      <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+
+      <!-- Modal Content (The Image) -->
+      <img class="modal-content hidden" id="img01" src="_blank" alt="">
+
+      <!-- Modal Caption (Image Text) -->
+      <div id="caption"></div>
+    </div>
+  </div>
+
+
+  <!-- Footer -->
+  <div id="footer">
+
+    <!-- Copyright -->
+    <ul class="copyright">
+      <li>&copy; Created by Vladimir Potiyevskiy.</li>
+      <li>Thanks to <a href="https://twitter.com/ajlkn">@ajlkn</a></li>
+    </ul>
+
+  </div>
+
+  <!-- Scripts -->
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/jquery.scrolly.min.js"></script>
+  <script src="assets/js/jquery.scrollzer.min.js"></script>
+  <script src="assets/js/skel.min.js"></script>
+  <script src="assets/js/util.js"></script>
+  <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+  <script src="assets/js/main.js"></script>
 
 </body>
 

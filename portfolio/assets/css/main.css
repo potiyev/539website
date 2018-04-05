@@ -1706,6 +1706,7 @@ input[type="button"]:active, input[type="submit"]:active, input[type="reset"]:ac
   margin: 1.75em 1.5em 1.5em 1.5em;
   min-height: 48px;
   cursor: default;
+
 }
 
 #logo h1 {
@@ -2236,6 +2237,15 @@ a.actv {
 }
 
 
+.personaList li{
+  list-style: none;
+  padding-bottom: 25px;
+  padding-top: 15px;
+  padding-left: 1px;
+
+}
+
+
 /* Modal code  */
 
 /* Style the Image Used to Trigger the Modal */
@@ -2280,8 +2290,8 @@ a.actv {
 .modal-content {
   margin: auto;
   display: block;
-  width: 90%;
-  /* max-width: 700px; */
+  /* width: 50%; */
+  max-width: 900px;
 }
 
 /* Caption of Modal Image (Image Text) - Same Width as the Image */

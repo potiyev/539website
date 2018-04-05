@@ -129,6 +129,7 @@
 				modal.style.display = "block";
 				var newSrc = this.src;
 				modalImg.attr('src', newSrc);
+				modalImg.toggleClass("hidden");
 				captionText.innerHTML = this.alt;
 			});
 
