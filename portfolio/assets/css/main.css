@@ -2169,7 +2169,7 @@ input[type="button"]:active, input[type="submit"]:active, input[type="reset"]:ac
 
 .dropdown {
   position: relative;
-  z-index: 1;
+  z-index: 10;
 }
 
 /* Dropdown Content (Hidden by Default) */
@@ -2179,7 +2179,7 @@ input[type="button"]:active, input[type="submit"]:active, input[type="reset"]:ac
   position: absolute;
   background-color: #222729;
   min-width: 95%;
-  box-shadow: 0px 8px 16px 8px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 8px 16px 8px rgba(0, 0, 0, 0.3);
   z-index: 10;
   font-size: .8em;
   border: none;
@@ -2192,6 +2192,8 @@ input[type="button"]:active, input[type="submit"]:active, input[type="reset"]:ac
   display: block;
   color: rgba(255, 255, 255, 0.7);
   border: none;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
+
 }
 
 /* Change color of dropdown links on hover */
@@ -2210,6 +2212,10 @@ input[type="button"]:active, input[type="submit"]:active, input[type="reset"]:ac
 .actv {
   color: #2980B9;
   font-weight: bold;
+  border-bottom: 1px solid #216EB5;
+}
+.actv {
+  color: #2980B9;
 }
 
 a.actv {
@@ -2217,9 +2223,9 @@ a.actv {
   border-bottom: 1px solid #216EB5;
 }
 
-#actv {
+#nav .dropdown ul #myDropdown .actv {
   color: #216EB5;
-  
+  border-bottom: 1px solid #216EB5;
 }
 
 .portfolioHover:hover {
