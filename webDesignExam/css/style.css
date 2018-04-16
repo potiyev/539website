@@ -5,16 +5,18 @@
   border: 5px solid  blue;
   padding: 5%;
   display: inline;
-  height: auto;
-  /* position: relative; */
-  /* margin: auto; */
-  /* box-sizing: border-box; */
+  box-sizing: border-box;
 }
 
 div img {
-  margin: 0 auto;
-  display: inline-block;
-  /* width: 100%; */
-  position: relative;
+  /* margin: 0 auto; */
+  /* display: block; */
+  /* height: auto; */
+  /* width: 50%; */
+  /* position: relative; */
+  /* display: block; */
+  /* height: auto; */
+  /* position: relative; */
+  /* margin: 0 auto; */
 
 }
