@@ -11,6 +11,8 @@ body {
 .ibox1 {
   width: 50%;
   height: 50%;
+
+
   box-sizing: border-box;
   max-height: 50%;
 
@@ -19,8 +21,8 @@ body {
 
 }
 .ibox2{
-  width: 50%;
-  height: 50%;
+  width: 40%;
+
   box-sizing: border-box;
   max-height: 50%;
 
@@ -32,7 +34,8 @@ body {
 div img {
   /* width: 47%; */
   max-width: 47%;
-  max-height: 50%;
+  max-height: 47%;
+
   border: 5px solid  blue;
   padding: 5%;
 
