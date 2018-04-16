@@ -1,12 +1,14 @@
-body {
-        background-image: url('/images/sun-pattern.png');
-        background-repeat: repeat;
-        background-size: cover;
+html {
+        background-image: url('christmas-colour.png');
+        /* background-repeat: repeat; */
+        /* background-size: cover; */
+        /* background-color: green; */
+        z-index: 1;
     }
 
 .boxes {
-  display: block;
-  width: 95%;
+  /* display: block; */
+
 }
 .ibox1 {
   width: 50%;
@@ -22,10 +24,8 @@ body {
 }
 .ibox2{
   width: 40%;
-
   box-sizing: border-box;
   max-height: 50%;
-
   display: inline;
   position: relative;
 
@@ -38,7 +38,7 @@ div img {
 
   border: 5px solid  blue;
   padding: 5%;
-
+  background-color: white;
   box-sizing: border-box;
 
 }
