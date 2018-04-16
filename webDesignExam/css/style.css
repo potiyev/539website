@@ -1,22 +1,40 @@
+html {
+        background-image: url('images/sun-pattern.png');
+        background-repeat:repeat;
+    }
 
-/* can't change the width border or padding  */
-.ibox {
+.boxes {
+  display: block;
+  width: 95%;
+}
+.ibox1 {
   width: 50%;
-  border: 5px solid  blue;
-  padding: 5%;
-  display: inline;
+  height: 50%;
+
+
   box-sizing: border-box;
+
+  display: inline;
+  position: relative;
+
+}
+.ibox2{
+  width: 50%;
+  height: 50%;
+  box-sizing: border-box;
+
+  display: inline;
+  position: relative;
+
 }
 
 div img {
-  /* margin: 0 auto; */
-  /* display: block; */
-  /* height: auto; */
-  /* width: 50%; */
-  /* position: relative; */
-  /* display: block; */
-  /* height: auto; */
-  /* position: relative; */
-  /* margin: 0 auto; */
+  /* width: 47%; */
+  max-width: 47%;
+
+  border: 5px solid  blue;
+  padding: 5%;
+
+  box-sizing: border-box;
 
 }

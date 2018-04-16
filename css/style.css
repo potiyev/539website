@@ -3,7 +3,8 @@ html {
   padding: 10px;
 }
 body {
-}
+        background-image: url('img_flowers.jpg');
+    }
 h1 {
   font-family: helvetica;
   font-size: 30px;

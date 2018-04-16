@@ -4,18 +4,38 @@
       <link rel="stylesheet" type="text/css" href="css/style.css">
     <meta charset="utf-8">
     <title>Vladimir Potiyevskiy</title>
+    <script>
+    function hide() {
+        document.getElementById("img1").style.display = "none";
+    }
+    function show() {
+        document.getElementById("panel").style.display = "block";
+    }
+
+
+    </script>
+
+
+
+
+
   </head>
   <body>
     <h1> Vladimir Potiyevskiy</h1>
-    <div class="ibox">
-      <img src="images/examPic.JPG" alt="exam pic">
+    <div>
+
+
+    <div class="ibox1">
+      <img id="img1" src="images/examPic.JPG" alt="exam pic">
     </div>
-    <div class="ibox">
+    <div class="ibox2">
       <img src="images/UMSI-logo.jpg" alt="exam pic">
     </div>
+        </div>
+    <br />
 
-    <button id="hide"> Hide Image</button>
-    <button id="show"> Show Image</button>
+    <button id="hide" onclick="hide"> Hide Image</button>
+    <button id="show"onclick="show"> Show Image</button>
 
 
   </body>
