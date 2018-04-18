@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <meta charset="utf-8">
+  <title>Vladimir Potiyevskiy</title>
+
+</head>
+<script>
+function hide() {
+    var x = document.getElementById("img1");
+    var y = document.getElementById("img2");
+        x.style.display = "none";
+        y.style.left = "25%";
+        y.style.width = "50%";
+        y.style.position = "relative";
+
+
+
+}
+function show() {
+    var x = document.getElementById("img1");
+    var y = document.getElementById("img2");
+        x.style.display = "inline-block";
+        y.style.left = "0";
+
+
+
+}
+
+
+
+
+
+
+</script>
+
+<body >
+  <h1> Vladimir Potiyevskiy</h1>
+  <div class="boxes">
+    <div class="ibox1">
+      <img id="img1" src="images/examPic.JPG" alt="exam pic">
+    </div>
+    <div id="img2" class="ibox2">
+      <img  src="images/UMSI-logo.jpg" alt="exam pic">
+    </div>
+  </div>
+  <br />
+
+  <button onclick="hide()"> Hide Image</button>
+  <button onclick="show()"> Show Image</button>
+
+
+</body>
+
+</html>

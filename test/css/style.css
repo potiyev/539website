@@ -1,0 +1,40 @@
+html {
+  background-image: url('../images/christmas-colour.png');
+
+  z-index: 1;
+}
+
+.boxes {
+  display: inline;
+  width: 50%;
+}
+
+.ibox1 {
+  /* width: 50%; */
+  /* height: 50%; */
+  box-sizing: border-box;
+  /* max-height: 50%; */
+  display: inline;
+  /* position: absolute; */
+}
+
+.ibox2 {
+  /* width: 47%; */
+  box-sizing: border-box;
+  /* max-height: 50%; */
+  display: inline;
+  /* position: absolute; */
+}
+
+div img {
+  width: 50%;
+  height: 50%;
+  max-width: 47%;
+  max-width: 47%;
+  display: inline-block;
+  border: 5px solid blue;
+  padding: 5%;
+  background-color: white;
+  box-sizing: border-box;
+  margin: 0 ;
+}
