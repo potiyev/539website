@@ -37,13 +37,17 @@
 
       <h2>Quality Assurance</h2>
       <ul>
-        <li>
-          <img class='check'src="assets/check.svg">
+        <li class="errorx">
+          <img class='check'src="assets/x.svg">
           <label>
         <p>Run through each page with the WAVE Chrome Extension.</p>
       </label>
-      <p>Headers should exist, clickable elements should be clearly indicated, and the user should be able to navigate through. If you are viewing content with poor lighting or from a few feet away, text should be readable. If you could foresee users
-        having trouble seeing or comprehending content, that’s a sound indicator that something is off.</p>
+      <p>After running the WAVE: Web Accessibility Evaluation Tool, I received <strong>11 errors</strong>.
+Five out of those errors were related to an empty heading. After further inspection, the web page uses empty headings as spacers. Additionally, 6 of those errors were related to empty links. These errors were existent inside of social media icons. I suggest adding ‘aria-label’ to these links in order to remove this error and improve accessibility. </p>
+
+<br />
+    <p>
+      In addition to these errors, there were <strong>6 “Very Low Contrast” errors</strong>. Although after further inspection, 2 of these errors were falsely flagged. I discovered this by testing the contrast with another application. I suggest improving the contrast by choosing more distinct colors like a foreground of black and background of white.</p>
         </li>
         <li>
           <img class='check'src="assets/check.svg">
