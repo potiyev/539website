@@ -42,7 +42,18 @@ table {
 
 .l-segment {
   margin: 2em 0
+
 }
+
+.l-segment ul li {
+  padding: 1.5em;
+  margin: 1.0em;
+}
+
+.l-segment .errorx {
+  box-shadow: 5px 5px 12px 10px rgba(126, 8, 8, 0.3), 0 6px 6px rgba(75, 24, 24, 0.2);
+}
+
 
 .l-segment h1{
 color: #36477c;
@@ -151,7 +162,7 @@ p {
 
 li {
   position: relative;
-  margin-bottom: 1.7em
+  margin-bottom: 1.7em;
 }
 
 @media (min-width: 600px) {
@@ -279,7 +290,8 @@ strong {
 }
 
 .c-guidelines ul {
-  margin-left: 30px
+  margin-left: 30px;
+
 }
 
 .c-guidelines div[id]:before {
@@ -491,4 +503,23 @@ strong {
     right: auto;
     margin: -1.5em 0 1.5em .8em
   }
+}
+
+.check {
+  width: 2em;
+  height: 2em;
+  left: -50px;
+  position: absolute;
+  top: 7px;
+  z-index: 1;
+
+
+}
+
+@media only screen and (max-width: 600px) {
+  .check {
+    left: -40px;
+    position: absolute;
+    z-index: 1;
+}
 }
