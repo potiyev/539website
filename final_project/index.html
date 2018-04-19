@@ -32,7 +32,10 @@
   <section class="l-wrapper c-guidelines">
 
 
-
+<h1>Website of Focus</h1>
+<p>
+  <a href="http://alumnus.alumni.umich.edu/notable-alumni/" target="_blank">alumnus.alumni.umich.edu/notable-alumni</a>
+</p>
     <div class="l-segment" id="qa">
 
       <h2>Quality Assurance</h2>
@@ -49,45 +52,46 @@ Five out of those errors were related to an empty heading. After further inspect
     <p>
       In addition to these errors, there were <strong>6 “Very Low Contrast” errors</strong>. Although after further inspection, 2 of these errors were falsely flagged. I discovered this by testing the contrast with another application. I suggest improving the contrast by choosing more distinct colors like a foreground of black and background of white.</p>
         </li>
-        <li>
-          <img class='check'src="assets/check.svg">
+        <li class="errorx">
+          <img class='check'src="assets/x.svg">
           <label id="qa-3">
         <p>Users should be able to navigate through content using their keyboard.</p>
       </label>
-      <p>Headers should exist, clickable elements should be clearly indicated, and the user should be able to navigate through. If you are viewing content with poor lighting or from a few feet away, text should be readable. If you could foresee users
-        having trouble seeing or comprehending content, that’s a sound indicator that something is off.</p>
-        </li>
-        <li>
-          <img class='check'src="assets/check.svg">
-          <label id="qa-3">
-        <p>Users should be able to navigate content using a screen reader.</p>
-      </label>
-      <p>Headers should exist, clickable elements should be clearly indicated, and the user should be able to navigate through. If you are viewing content with poor lighting or from a few feet away, text should be readable. If you could foresee users
-        having trouble seeing or comprehending content, that’s a sound indicator that something is off.</p>
+      <p>After going through the webpage by only using Tab and arrow keys, I was not able to get through a lot of the content. Therefore this this item in the checklist fails. </p>
+<br />
+      <p>The web page allows to show a button that lets the user skip to main content but instead it skips to the footer area of the webpage. One recommendation would be to add ‘tab-index’ into the html to highlight over the expand buttons which will allow the items to expand. Additionally adding focus to each item in the list would also be beneficial so users can tab through each item in that content area after expansion. </p>
         </li>
         <li class="errorx">
           <img class='check'src="assets/x.svg">
           <label id="qa-3">
+        <p>Users should be able to navigate content using a screen reader.</p>
+      </label>
+      <p>Similar to the last point, navigating through content with a voice-over or screen reader is as difficult as using the webpage with just the webpage.
+        A lot o the content have missing focuses therefore it doesn’t read them aloud with the screen reader. </p>
+
+      <p>Therefore, by adding the recommendations from the previous checklist item and adding alt text, to each focus item, users will be able to access the web page with a screen reader better.</p>
+        </li>
+        <li>
+          <img class='check'src="assets/check.svg">
+          <label id="qa-3">
         <p>The general architecture and hierarchy of the content should make sense.</p>
       </label>
-      <p>Headers should exist, clickable elements should be clearly indicated, and the user should be able to navigate through. If you are viewing content with poor lighting or from a few feet away, text should be readable. If you could foresee users
-        having trouble seeing or comprehending content, that’s a sound indicator that something is off.</p>
+      <p>The general hierarchy of the content makes sense. The navigation bars are where they should be, the main body is shown with hidden expanding menus and the header and footer are well documented. The heading-title texts indicate what is under them and the remains hidden unless invoked by expanding. </p>
         </li>
         <li class="errorx">
           <img class='check'src="assets/x.svg">
           <label id="qa-3">
         <p>Charts and images should all have alt-text so that users with screen readers or users on a slow connection will still be able to understand the images.</p>
       </label>
-      <p>Headers should exist, clickable elements should be clearly indicated, and the user should be able to navigate through. If you are viewing content with poor lighting or from a few feet away, text should be readable. If you could foresee users
-        having trouble seeing or comprehending content, that’s a sound indicator that something is off.</p>
+      <p>
+        There are not many images available on this web page therefore this checklist item isn’t as related as the others. Although, the few images that are shown, alt text exists on some of them. For example, social media icons don’t have alt text because they are shown as links. Adding alt text or removing them from screen readers with an “aria-label: hidden”, would suffice this failed check list item. </p>
         </li>
         <li class="errorx">
           <img class='check'src="assets/x.svg">
           <label id="qa-3">
         <p>Decorative images should not be visible to screen readers.</p>
       </label>
-      <p>Headers should exist, clickable elements should be clearly indicated, and the user should be able to navigate through. If you are viewing content with poor lighting or from a few feet away, text should be readable. If you could foresee users
-        having trouble seeing or comprehending content, that’s a sound indicator that something is off.</p>
+      <p>Not only are decorative images visible to screen readers, the screen readers don’t explain what the image shows therefore it fails this item on the checklist. Additionally, the fact that the social media icons are seen and read by the screen reader but they don’t explain what the social media icons are. They are read solely as ‘link’.</p>
         </li>
 
       </ul>
