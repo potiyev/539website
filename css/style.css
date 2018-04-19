@@ -41,11 +41,16 @@ table {
 }
 
 .l-segment {
-  margin: 2em 0
+  margin: 2em 0;
+  padding-bottom: 2em;
 }
 
 .l-segment h1{
 color: #36477c;
+}
+
+.l-segment h2 {
+  color: #202c50;
 }
 
 @media (min-width: 600px) {
@@ -106,7 +111,7 @@ h3 {
 
 a {
   border: 1px solid transparent;
-  border-bottom: 1px solid #555;
+  border-bottom: 1px solid rgba(85, 85, 85, 0.4);
   color: #36507c;
   outline: none;
   text-decoration: none;
@@ -429,7 +434,6 @@ strong {
 }
 
 .c-hero {
-  background-image: url("/assets/voxmedia-pattern.jpg");
   padding: 3.5em 0;
   color: #FFF;
   background-color: #292929;
@@ -440,6 +444,8 @@ strong {
   margin-bottom: 0.2em;
   line-height: 1
   color: #FFF;
+  border-bottom: 3px solid #205085;
+
 }
 
 @media (max-width: 600px) {
@@ -452,7 +458,7 @@ strong {
 .c-hero p {
   font-size: 1.25em;
   color: #FFF;
-  background: #205085;
+
   line-height: 1.2;
   display: inline
 }

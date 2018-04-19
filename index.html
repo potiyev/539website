@@ -44,14 +44,13 @@
     SI 539: Design of Complex Websites, provides a hands-on approach to learning responsive, accessible front-end programming for Web Design. Topics covered include HTML5, CSS3 (including Bootstrap framework), JavaScript, jQuery, additional frameworks, and the POUR design principles of accessible design. Backend web-development will also be introduced.
   </p>
 
+
   </div>
-</section>
 
 
-
-  <section class="c-header c-guidelines">
-    <div class="l-wrapper" id="1">
+    <div class="l-segment" id="1">
       <h2>In-Class Exercise: 1</h2>
+      <hr />
 
       <p>The goal of this assignment was to get familar with HTML and the different tags, attributes and elements.</p>
         <br />
@@ -60,14 +59,11 @@
         <br />
         <h3> Github Link</h3>
         <a href="https://github.com/potiyev/potiyev.github.io/tree/master/ICE1" target="_blank"> Github Link for ICE 1</a>
-
-
     </div>
-  </section>
 
-  <section class="l-wrapper c-guidelines">
     <div class="l-segment" id="2">
       <h2>In-Class Exercise: 2</h2>
+      <hr />
 
       <p>The goal of this assignment was practice layout possitioning. In addition to this, we were tasked to practice good accessibility thinking. The final goal was to practice hover effects and animations.</p>
         <br />
@@ -77,23 +73,19 @@
         <br />
         <h3> Github Link</h3>
         <a href="https://github.com/potiyev/potiyev.github.io/tree/master/ice2"> Github Link for ICE 2</a>
-
-
     </div>
-  </section>
-<section class="c-header c-guidelines">
-  <div class="l-wrapper">
+
+  <div class="l-segment">
   <p>
     Exercise 3 Was Skipped
   </p>
 </div>
 
 
-</section>
 
-  <section class="c-header c-guidelines">
-    <div class="l-wrapper" id="4">
+    <div class="l-segment" id="4">
       <h2>In-Class Exercise: 4</h2>
+      <hr />
 
       <p>The Goal of this assignment was to practice responsive design for 3 different views. In addition to this, we were tasked at organizing the images properly.</p>
         <br />
@@ -105,12 +97,11 @@
         <h3> Github Link</h3>
         <a href="https://github.com/potiyev/potiyev.github.io/tree/master/ice4" target="_blank"> Github Link for ICE 4</a>
     </div>
-  </section>
 
-  <section class="l-wrapper c-guidelines">
     <div class="l-segment" id="5">
 
       <h2>In-Class Exercise: 5</h2>
+      <hr />
 
       <p>The goal of this assignment was to practice different layouts (Grid, Flex, Bootstrap 3, Bootstrap 4). </p>
         <br />
@@ -121,13 +112,10 @@
         <h3> Github Link</h3>
         <a href="https://github.com/potiyev/potiyev.github.io/tree/master/ice2" target="_blank"> Github Link For Ice 5</a>
     </div>
-  </section>
 
-
-
-      <section class="c-header c-guidelines">
-        <div class="l-wrapper" id="6">
+        <div class="l-segment" id="6">
       <h2>In-Class Exercise: 6</h2>
+      <hr />
 
       <p>The goal of this assignment was to showcase a set of basic javascript functionalities through 5 challenges.</p>
         <br />
@@ -138,11 +126,10 @@
         <h3> Github Link</h3>
         <a href="https://github.com/potiyev/potiyev.github.io/tree/master/ice6"> Github</a>
     </div>
-  </section>
 
-  <section class="l-wrapper c-guidelines">
     <div class="l-segment" id="7">
       <h2>In-Class Exercise: 7</h2>
+      <hr />
 
       <p>The goal for this assignment was to recreate what I've done from ICE:6 but using Jquery.</p>
         <br />
@@ -153,11 +140,10 @@
         <h3> Github Link</h3>
         <a href="https://github.com/potiyev/potiyev.github.io/tree/master/ice7"> Github</a>
     </div>
-  </section>
 
-      <section class="c-header c-guidelines">
-        <div class="l-wrapper" id="8">
+        <div class="l-segment" id="8">
       <h2>In-Class Exercise: 8</h2>
+      <hr />
 
       <p>The goal of this assignment was to coloborate with another classmate and create a job application form that could be deployed if presented with an backend system.</p>
         <br />
@@ -167,11 +153,10 @@
         <h3> Github Link</h3>
         <a href="https://github.com/potiyev/potiyev.github.io/tree/master/ice8"> Github</a>
     </div>
-  </section>
 
-  <section class="l-wrapper c-guidelines">
     <div class="l-segment" id="9">
   <h2>Final Project</h2>
+  <hr />
 
   <p>The goal of this assignment was to use <a href="http://accessibility.voxmedia.com/">accessibility.voxmedia.com</a> as a checklist to inspect a current Michigan website and see if they pass each test. If they failed a task on the checklist, we would have to recommend a way for them to fix such error.</p>
     <br />
@@ -755,11 +740,7 @@
         return existing;
       }
 
-      function highlightCheckboxes() {
-        active.forEach(function(box) {
-          document.querySelector('#' + box[1] + ' input').checked = true;
-        })
-      }
+
 
       function formatPreview(start) {
         var activeSection = "";
@@ -833,13 +814,7 @@
         outputPreview();
       }
 
-      document.addEventListener('navStateChange', function(ev) {
-        if (ev.detail.active && active.length) {
-          floatyButton.style.display = "block";
-        } else if (!ev.detail.active) {
-          floatyButton.style.display = "none";
-        }
-      });
+
 
       $$('[name="output_type"]').forEach(function(input) {
         if (input.checked) {
@@ -861,15 +836,6 @@
         return input;
       });
 
-      // On init check localStorage to see if the person
-      // has previously visited, if so return things
-      // to the way they left things
-      var previousSelections = retrieveActive();
-      if (previousSelections) {
-        active = previousSelections;
-        highlightCheckboxes();
-        rebuildActive();
-      }
 
     })(document.querySelector('.c-guidelines'));
   </script>

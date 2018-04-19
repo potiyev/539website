@@ -8,8 +8,6 @@
 
   <title>Vlad's 539 Final Project</title>
   <link rel="stylesheet" href="css/style.css">
-  <link rel="canonical" href="http://accessibility.voxmedia.com/">
-  <link rel="alternate" type="application/rss+xml" title="Vox Product Accessibility Guidelines" href="http://accessibility.voxmedia.com/feed.xml">
   <link rel="shortcut icon" href="favicon.ico">
 </head>
 
@@ -32,66 +30,78 @@
   <section class="l-wrapper c-guidelines">
 
 
-<h1>Website of Focus</h1>
-<p>
-  <a href="http://alumnus.alumni.umich.edu/notable-alumni/" target="_blank">alumnus.alumni.umich.edu/notable-alumni</a>
-</p>
+    <h1>Website of Focus</h1>
+    <p>
+      <a href="http://alumnus.alumni.umich.edu/notable-alumni/" target="_blank">alumnus.alumni.umich.edu/notable-alumni</a>
+    </p>
     <div class="l-segment" id="qa">
 
       <h2>Quality Assurance</h2>
       <ul>
         <li class="errorx">
-          <img class='check'src="assets/x.svg">
+          <img class='check' src="assets/x.svg">
           <label>
         <p>Run through each page with the WAVE Chrome Extension.</p>
       </label>
-      <p>After running the WAVE: Web Accessibility Evaluation Tool, I received <strong>11 errors</strong>.
-Five out of those errors were related to an empty heading. After further inspection, the web page uses empty headings as spacers. Additionally, 6 of those errors were related to empty links. These errors were existent inside of social media icons. I suggest adding ‘aria-label’ to these links in order to remove this error and improve accessibility. </p>
+          <p>After running the WAVE: Web Accessibility Evaluation Tool, I received <strong>11 errors</strong>. Five out of those errors were related to an empty heading. After further inspection, the web page uses empty headings as spacers. Additionally,
+            6 of those errors were related to empty links. These errors were existent inside of social media icons. I suggest adding ‘aria-label’ to these links in order to remove this error and improve accessibility. </p>
 
-<br />
-    <p>
-      In addition to these errors, there were <strong>6 “Very Low Contrast” errors</strong>. Although after further inspection, 2 of these errors were falsely flagged. I discovered this by testing the contrast with another application. I suggest improving the contrast by choosing more distinct colors like a foreground of black and background of white.</p>
+          <br />
+          <p>
+            In addition to these errors, there were <strong>6 “Very Low Contrast” errors</strong>. Although after further inspection, 2 of these errors were falsely flagged. I discovered this by testing the contrast with another application. I suggest
+            improving the contrast by choosing more distinct colors like a foreground of black and background of white.</p>
         </li>
         <li class="errorx">
-          <img class='check'src="assets/x.svg">
+          <img class='check' src="assets/x.svg">
           <label id="qa-3">
         <p>Users should be able to navigate through content using their keyboard.</p>
       </label>
-      <p>After going through the webpage by only using Tab and arrow keys, I was not able to get through a lot of the content. Therefore this this item in the checklist fails. </p>
-<br />
-      <p>The web page allows to show a button that lets the user skip to main content but instead it skips to the footer area of the webpage. One recommendation would be to add ‘tab-index’ into the html to highlight over the expand buttons which will allow the items to expand. Additionally adding focus to each item in the list would also be beneficial so users can tab through each item in that content area after expansion. </p>
+          <p>After going through the webpage by only using Tab and arrow keys, <strong>I was not able to get through a lot of the content.</strong> Therefore this this item in the checklist fails. </p>
+          <br />
+          <p>The web page allows to show a button that lets the user skip to main content but instead it skips to the footer area of the webpage. One recommendation would be to add ‘tab-index’ into the html to highlight over the expand buttons which will
+            allow the items to expand. Additionally adding focus to each item in the list would also be beneficial so users can tab through each item in that content area after expansion. </p>
         </li>
         <li class="errorx">
-          <img class='check'src="assets/x.svg">
+          <img class='check' src="assets/x.svg">
           <label id="qa-3">
         <p>Users should be able to navigate content using a screen reader.</p>
       </label>
-      <p>Similar to the last point, navigating through content with a voice-over or screen reader is as difficult as using the webpage with just the webpage.
-        A lot o the content have missing focuses therefore it doesn’t read them aloud with the screen reader. </p>
+          <p>Similar to the last point, <strong>navigating through content with a voice-over or screen reader is as difficult as using the webpage with just the keyboard.</strong> A lot of the content have missing focuses therefore it doesn’t read them aloud with the screen
+            reader. </p>
 
-      <p>Therefore, by adding the recommendations from the previous checklist item and adding alt text, to each focus item, users will be able to access the web page with a screen reader better.</p>
+          <p>Therefore, by adding the recommendations from the previous checklist item and adding alt text, to each focus item, users will be able to access the web page with a screen reader better.</p>
         </li>
         <li>
-          <img class='check'src="assets/check.svg">
+          <img class='check' src="assets/check.svg">
           <label id="qa-3">
         <p>The general architecture and hierarchy of the content should make sense.</p>
       </label>
-      <p>The general hierarchy of the content makes sense. The navigation bars are where they should be, the main body is shown with hidden expanding menus and the header and footer are well documented. The heading-title texts indicate what is under them and the remains hidden unless invoked by expanding. </p>
+          <p>The general hierarchy of the content makes sense. The navigation bars are where they should be, the main body is shown with hidden expanding menus and the header and footer are well documented. The heading-title texts indicate what is under
+            them and the remains hidden unless invoked by expanding. </p>
+            <p>
+              There is no recommendation needed for this checklist item.
+            </p>
         </li>
         <li class="errorx">
-          <img class='check'src="assets/x.svg">
+          <img class='check' src="assets/x.svg">
           <label id="qa-3">
         <p>Charts and images should all have alt-text so that users with screen readers or users on a slow connection will still be able to understand the images.</p>
       </label>
-      <p>
-        There are not many images available on this web page therefore this checklist item isn’t as related as the others. Although, the few images that are shown, alt text exists on some of them. For example, social media icons don’t have alt text because they are shown as links. Adding alt text or removing them from screen readers with an “aria-label: hidden”, would suffice this failed check list item. </p>
+          <p>
+            There are not many images available on this web page therefore this checklist item isn’t as related as the others. Although, the few images that are available, are missing alt text on some of them. Therefore, by using a screen reader, it is very difficult to figure out what the image is. </p>
+            <p> For example, social media icons don’t have alt text because they
+            are shown as links. Adding alt text or removing them from screen readers with an “aria-label: hidden”, would suffice this failed check list item. Additionally, it is recomended that all images that are unrelated gets a "aria-label:hiden", not just social media icons. </p>
+
         </li>
         <li class="errorx">
-          <img class='check'src="assets/x.svg">
+          <img class='check' src="assets/x.svg">
           <label id="qa-3">
         <p>Decorative images should not be visible to screen readers.</p>
       </label>
-      <p>Not only are decorative images visible to screen readers, the screen readers don’t explain what the image shows therefore it fails this item on the checklist. Additionally, the fact that the social media icons are seen and read by the screen reader but they don’t explain what the social media icons are. They are read solely as ‘link’.</p>
+          <p>Not only are decorative images visible to screen readers, the screen readers don’t explain what the image shows therefore it fails this item on the checklist. Additionally, the fact that the social media icons are seen and read by the screen
+            reader but they don’t explain what the social media icons are. They are read solely as ‘link’.</p>
+          <p>
+            It is recommended that an ‘aria-label:hidden” is inserted to these social media icons to avoid being called out by the screen readers. </p>
         </li>
 
       </ul>
@@ -671,11 +681,6 @@ Five out of those errors were related to an empty heading. After further inspect
         return existing;
       }
 
-      function highlightCheckboxes() {
-        active.forEach(function(box) {
-          document.querySelector('#' + box[1] + ' input').checked = true;
-        })
-      }
 
       function formatPreview(start) {
         var activeSection = "";
@@ -749,13 +754,6 @@ Five out of those errors were related to an empty heading. After further inspect
         outputPreview();
       }
 
-      document.addEventListener('navStateChange', function(ev) {
-        if (ev.detail.active && active.length) {
-          floatyButton.style.display = "block";
-        } else if (!ev.detail.active) {
-          floatyButton.style.display = "none";
-        }
-      });
 
       $$('[name="output_type"]').forEach(function(input) {
         if (input.checked) {
@@ -777,22 +775,13 @@ Five out of those errors were related to an empty heading. After further inspect
         return input;
       });
 
-      // On init check localStorage to see if the person
-      // has previously visited, if so return things
-      // to the way they left things
-      var previousSelections = retrieveActive();
-      if (previousSelections) {
-        active = previousSelections;
-        highlightCheckboxes();
-        rebuildActive();
-      }
 
     })(document.querySelector('.c-guidelines'));
   </script>
 
   <footer class="c-footer">
     <div class="l-wrapper">
-    Thanks &copy Vladimir Potiyevskiy
+      Thanks &copy Vladimir Potiyevskiy
 
     </div>
   </footer>
